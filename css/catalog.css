@@ -94,3 +94,33 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-.02em;marg
 @media(min-width:860px){.detail{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}}
 .app,.grid,.proj{min-width:0}.grid>*,.proj>*{min-width:0}
 .article .back{display:flex;width:max-content}.article .kicker{display:block}
+/* Desktop / PC layout (phone layout above is unchanged) */
+@media(min-width:900px){
+.topbar{padding-left:max(28px,calc((100vw - 1280px)/2 + 28px));padding-right:max(28px,calc((100vw - 1280px)/2 + 28px))}
+.topnav{gap:6px}.topnav a{padding:9px 18px;font-size:15px}.topnav a:hover{color:var(--text);background:rgba(255,255,255,.05)}
+.app{max-width:1280px;padding:28px 28px 40px}.foot{max-width:1280px;padding:10px 28px 34px}
+.hero{min-height:400px}.hero-inner{padding:36px 40px}.hero h1{font-size:60px}.hero p{font-size:16.5px;max-width:640px}
+.sec h2{font-size:26px}
+.grid{gap:18px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.ulist{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.urow{grid-template-columns:140px 1fr;gap:16px;padding:12px}.urow .img{width:140px;height:140px}.urow h3{font-size:17px}.urow p{-webkit-line-clamp:3}
+.plist{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.prow{grid-template-columns:120px 1fr;padding:12px}.prow .img{width:120px;height:120px}
+.detail{gap:32px}.detail>:first-child{position:sticky;top:84px}
+.gal{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.article{max-width:1180px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:40px;align-items:start;grid-auto-flow:row dense}
+.article>*{grid-column:1/-1}
+.article>.ahero{grid-column:1;grid-row:4/span 2;align-self:start}
+.article>.ahero~.body{grid-column:2}
+.article>.ahero~.body+.group-title+.grid{grid-column:1/-1}
+.article h1{font-size:42px}
+.search{max-width:560px}
+}
+@media(min-width:1280px){
+.app,.foot{max-width:1400px}
+.grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.proj{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ulist{grid-template-columns:repeat(3,minmax(0,1fr))}
+.urow{grid-template-columns:1fr;}.urow .img{width:100%;height:auto;aspect-ratio:16/10}
+.hero{min-height:460px}
+}
