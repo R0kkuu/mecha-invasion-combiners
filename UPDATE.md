@@ -80,7 +80,11 @@ python3 -c "import json,pathlib; p=pathlib.Path('data/updates.json'); d=json.loa
 
 ## Publish (GitHub + Vercel)
 
-Source of truth: GitHub repo `R0kkuu/mecha-invasion-combiners` (branch `main`). Vercel project `mecha-invasion-combiners` is connected to that repo, so **a push to `main` deploys production automatically**. No Vercel or Netlify token is needed for a normal refresh.
+Source of truth: GitHub repo `R0kkuu/mecha-invasion-combiners` (branch `main`). Live site: https://mecha-invasion-combiners.vercel.app (Vercel project `mecha-invasion-combiners`).
+
+**How the live site picks up changes (current setup):** the Vercel deployment serves only `index.html`, `css/`, `js/` and `vercel.json`; `vercel.json` rewrites `/data/*`, `/images/*`, `/thumbs/*` and `/UPDATE.md` to `raw.githubusercontent.com/R0kkuu/mecha-invasion-combiners/main/...`. So for a normal daily refresh (data, articles, images) **a `git push` to `main` is the whole deploy** — live within ~5 minutes (raw GitHub cache). No Vercel or Netlify token needed.
+
+Only if `index.html`, `css/catalog.css`, `js/catalog.js` or `vercel.json` change does Vercel need a new deployment (Vercel connector `create_deployment`, project `prj_MjZk8679hjOdrDH9drN46bXcQrla`, target `production`, those 4 files inline). Once the Vercel GitHub app is installed and the project is linked to the repo, every push deploys automatically and this step goes away.
 
 ```bash
 cd /workspace/mecha-invasion-catalog
@@ -89,7 +93,7 @@ git commit -m "refresh: <YYYY-MM-DD> <short summary>"
 git push origin main
 ```
 
-Then verify (allow ~1 min for the build):
+Then verify (allow ~5 min):
 
 ```bash
 curl -s https://mecha-invasion-combiners.vercel.app/data/updates.json | python3 -c "import json,sys; print(json.load(sys.stdin)[0]['id'])"
