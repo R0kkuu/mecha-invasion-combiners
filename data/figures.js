@@ -1,0 +1,1901 @@
+window.CATALOG_DATA = {
+  "title": "Mecha Invasion Combiner Catalog",
+  "titleZh": "机械入侵 合体目录",
+  "company": {
+    "en": "Mecha Invasion",
+    "zh": "机械入侵",
+    "weibo": "https://weibo.com/u/6612946062",
+    "notes": "Third-party transforming combiner figures. Not affiliated with Hasbro or TakaraTomy."
+  },
+  "lastUpdated": "2026-10-21",
+  "lastUpdatedLabel": "21 Oct 2026, 6:30 PM AEDT",
+  "lastUpdatedIso": "2026-10-21T18:30:00+11:00",
+  "disclaimer": "Unofficial fan catalog. Homage names are collector shorthand, not licensed character names. Specs are taken from official Weibo copy, TFW2005 recaps, Tformers translations, and retailer pages that reproduce factory text. Unknowns are marked unknown — nothing here is invented.",
+  "lines": [
+    {
+      "id": "giant-legion",
+      "nameEn": "Giant Legion",
+      "nameZh": "巨型军团",
+      "blurb": "Construction and dinosaur combiners. Heavy Builder (Devastator homage) in four colourways plus the GLA-07 upgrade kit; a dinosaur combiner is in gray-model stage."
+    },
+    {
+      "id": "titan-empyrean",
+      "nameEn": "Titan Empyrean",
+      "nameZh": "泰坦星寰",
+      "blurb": "Large-scale military combiner line themed on the twenty-eight lunar mansions (二十八星宿). First team: 参伐战神 TE01 (~55 cm combined)."
+    },
+    {
+      "id": "micro-core",
+      "nameEn": "Micro-Core Heavy Industry",
+      "nameZh": "微核重工",
+      "blurb": "Small-scale assembly combiners. First work 微星工程队, gray models in revision as of ChinaJoy 2026."
+    }
+  ],
+  "statusOrder": [
+    "released",
+    "preorder",
+    "gray-model",
+    "prototype",
+    "in-development"
+  ],
+  "figures": [
+    {
+      "id": "gla-01",
+      "code": "GLA-01",
+      "nameEn": "Loader",
+      "nameZh": "铲车",
+      "aliases": [
+        "Forklift",
+        "Heavy Builder GLA-01"
+      ],
+      "homage": "Scrapper (G1 Constructicon)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Set A (GLA-01 & GLA-02)",
+      "altMode": "Front-end loader / forklift (construction vehicle)",
+      "combinerRole": "Arm (Set A). Default limb assignment is not G1-swapable without GLA-07.",
+      "heightRobot": "~22 cm (some retailers list 21.5 cm / 8.5\")",
+      "heightCombined": null,
+      "materials": [
+        "ABS",
+        "alloy",
+        "soft PVC / rubber tires"
+      ],
+      "leds": "Red magnetic LED headlights (standard green release). Battery model AG3 (retailer listing).",
+      "status": "released",
+      "announced": "2024-01 (gray model with rest of Giant Legion)",
+      "released": "Original two-pack targeted end of August 2024; TFSafari listed 2025-04 in stock. Reissues exist.",
+      "priceOfficial": "Sold in two-packs. Official 2024 Weibo MSRP: 399 RMB per two-member set; 199 RMB single; 1197 RMB for all three sets.",
+      "priceRetail": "Western two-packs commonly ~USD 110 (varies by shop and batch).",
+      "notes": "Official English name is Loader / forklift, not Mixmaster. Western shops sometimes swap GLA-01/02 homage names. Triple-change (vehicle / robot / combiner limb) with no extra partsforming for combination.",
+      "sources": [
+        "https://tformers.com/53150",
+        "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+        "https://weibo.com/u/6612946062",
+        "https://tformers.com/52144"
+      ],
+      "images": [
+        {
+          "file": "images/gla-01/tformers-seta-12.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official color robot-mode studio shot from the Set A reveal (Loader / mixer two-pack gallery).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tformers-seta-11.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A pair shot: GLA-01 Loader and GLA-02 Mixer in robot mode. Weibo watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tformers-seta-13.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tformers-seta-14.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tformers-seta-15.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tformers-seta-18.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tfsafari-01.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+          "caption": "Retailer promo of Set A robot modes with faded vehicle and arm-mode callouts.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tfsafari-02.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+          "caption": "TFSafari Set A gallery (official-style studio shot).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-01/tfsafari-03.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+          "caption": "TFSafari Set A gallery (official-style studio shot).",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "member",
+      "role": "Arm",
+      "pack": "Set A"
+    },
+    {
+      "id": "gla-02",
+      "code": "GLA-02",
+      "nameEn": "Mixer",
+      "nameZh": "搅拌车",
+      "aliases": [
+        "Mixer Truck",
+        "Cement mixer"
+      ],
+      "homage": "Mixmaster (G1 Constructicon)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Set A (GLA-01 & GLA-02)",
+      "altMode": "Cement mixer truck",
+      "combinerRole": "Arm (Set A). TFW prototype recap noted Mixmaster-style mixer forming the combined right arm in the original configuration.",
+      "heightRobot": "~22 cm (some retailers list 21.5 cm / 8.5\")",
+      "heightCombined": null,
+      "materials": [
+        "ABS",
+        "alloy",
+        "soft PVC / rubber tires"
+      ],
+      "leds": "Red magnetic LED headlights (standard green release). Battery model AG3 (retailer listing).",
+      "status": "released",
+      "announced": "2024-01 (gray model with rest of Giant Legion)",
+      "released": "Original two-pack targeted end of August 2024; TFSafari listed 2025-04 in stock. Reissues exist.",
+      "priceOfficial": "399 RMB per two-member set (2024 Weibo MSRP); 199 RMB single.",
+      "priceRetail": "Western two-packs commonly ~USD 110.",
+      "notes": "Official English name is Mixer / mixer truck. TFW 2024-01-22 noted mixer as combined right arm in the gray-model configuration. GLA-07 later adds G1-style limb swapping.",
+      "sources": [
+        "https://tformers.com/53150",
+        "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+        "https://news.tfw2005.com/2024/01/22/mecha-invasion-giant-legion-g1-devastator-prototype-images-502483"
+      ],
+      "images": [
+        {
+          "file": "images/gla-02/tformers-seta-11.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A pair shot: Loader and Mixer robot modes.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-02/tformers-seta-12.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-02/tformers-seta-16.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-02/tformers-seta-17.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-02/tformers-seta-19.jpg",
+          "credit": "Tformers (official Mecha Invasion color images)",
+          "sourceUrl": "https://tformers.com/53150",
+          "caption": "Official Set A color gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-02/tfsafari-01.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+          "caption": "Retailer promo of Set A with mixer truck alt-mode callout.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-02/tfsafari-02.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/mecha-invasion-gla01-gla-01-giant-legion-mixmaster-gla02-gla-02-heavy-builder-scrapper-constructor-devastator-combiner-2-in-1-set",
+          "caption": "TFSafari Set A gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "member",
+      "role": "Arm (right, per TFW recap)",
+      "pack": "Set A"
+    },
+    {
+      "id": "gla-03",
+      "code": "GLA-03",
+      "nameEn": "Craner",
+      "nameZh": "吊车",
+      "aliases": [
+        "Crane"
+      ],
+      "homage": "Hook (G1 Constructicon)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Set B (GLA-03 & GLA-04)",
+      "altMode": "Mobile crane truck",
+      "combinerRole": "Body / torso (Set B, with GLA-04).",
+      "heightRobot": "~22 cm",
+      "heightCombined": null,
+      "materials": [
+        "ABS",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Red magnetic LED headlights (standard green release).",
+      "status": "released",
+      "announced": "2024 (with Giant Legion line)",
+      "released": "Set B originally late 2024; TFSafari listed a 2025-05 reissue batch in stock. Tokullectibles has listed a reissue two-pack.",
+      "priceOfficial": "399 RMB per two-member set (2024 Weibo MSRP).",
+      "priceRetail": "Western two-packs commonly ~USD 110. Tokullectibles listed USD 110 (sold out at time of research).",
+      "notes": "Official English name Craner. Some Western listings swap codes vs homages (Tokullectibles called GLA-03 Long Haul & GLA-04 Hook). Chinese retail consistently lists Set B as 翻斗车+吊车 (dump truck + crane). Homage mapping used here: Craner = Hook.",
+      "sources": [
+        "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+        "https://www.mechamaidens.com/roboticfigures/p/giant-legion-gla-03-gla-04-figure-set-apg3e",
+        "https://tokullectibles.com/products/mecha-invasion-giant-legion-mecha-invasion-giant-legion-gla-03-gla-04-set-reissue"
+      ],
+      "images": [
+        {
+          "file": "images/gla-03/tfsafari-01.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "Official-style Set B promo: Craner and Tipper robot modes with crane and dump-truck alt-mode callouts.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-03/tfsafari-02.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-03/tfsafari-03.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-03/tfsafari-04.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-03/tfsafari-06.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-03/tfsafari-08.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "member",
+      "role": "Torso (with GLA-04)",
+      "pack": "Set B"
+    },
+    {
+      "id": "gla-04",
+      "code": "GLA-04",
+      "nameEn": "Tipper",
+      "nameZh": "翻斗车",
+      "aliases": [
+        "Dump truck"
+      ],
+      "homage": "Long Haul (G1 Constructicon)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Set B (GLA-03 & GLA-04)",
+      "altMode": "Dump truck",
+      "combinerRole": "Body / torso (Set B, with GLA-03).",
+      "heightRobot": "~22 cm",
+      "heightCombined": null,
+      "materials": [
+        "ABS",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Red magnetic LED headlights (standard green release).",
+      "status": "released",
+      "announced": "2024 (with Giant Legion line)",
+      "released": "Set B originally late 2024; 2025 reissue batches exist.",
+      "priceOfficial": "399 RMB per two-member set (2024 Weibo MSRP).",
+      "priceRetail": "Western two-packs commonly ~USD 110.",
+      "notes": "Official English name Tipper. Homage mapping used here: Tipper = Long Haul. See GLA-03 notes on retailer code swaps.",
+      "sources": [
+        "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+        "https://tformers.com/54362"
+      ],
+      "images": [
+        {
+          "file": "images/gla-04/tfsafari-01.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "Official-style Set B promo: Craner and Tipper.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-04/tfsafari-02.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-04/tfsafari-03.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-04/tfsafari-05.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-04/tfsafari-07.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla03-gla-03-gla04-gla-04-long-haul-hook-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5-copy",
+          "caption": "TFSafari Set B gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "member",
+      "role": "Torso (with GLA-03)",
+      "pack": "Set B"
+    },
+    {
+      "id": "gla-05",
+      "code": "GLA-05",
+      "nameEn": "Excavator",
+      "nameZh": "挖掘机",
+      "aliases": [],
+      "homage": "Scavenger (G1 Constructicon)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Set C (GLA-05 & GLA-06)",
+      "altMode": "Excavator / power shovel",
+      "combinerRole": "Leg (Set C). TFW prototype recap noted Scavenger-style excavator forming the combined right leg in the original configuration.",
+      "heightRobot": "~22 cm (TFSafari lists 21.5 cm)",
+      "heightCombined": null,
+      "materials": [
+        "ABS",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Red magnetic LED headlights (standard green release).",
+      "status": "released",
+      "announced": "2024",
+      "released": "Set C originally around early 2025 (Taiwan retail listed ~Feb 2025 factory). Reissues exist.",
+      "priceOfficial": "399 RMB per two-member set (2024 Weibo MSRP).",
+      "priceRetail": "Western two-packs commonly ~USD 110.",
+      "notes": "Official English name Excavator. Mecha Maidens lists GLA-05 Excavator + GLA-06 Bulldozer. TFSafari titles the two-pack “Bonecrusher & Scavenger” without matching codes to G1 names. Homage used here follows vehicle: excavator ≈ Scavenger.",
+      "sources": [
+        "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+        "https://www.mechamaidens.com/roboticfigures/p/giant-legion-gla-05-excavator-gla-06-bulldozer-figure-set-9xd9d",
+        "https://news.tfw2005.com/2024/01/22/mecha-invasion-giant-legion-g1-devastator-prototype-images-502483"
+      ],
+      "images": [
+        {
+          "file": "images/gla-05/tfsafari-01.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "Official-style Set C promo: excavator and bulldozer robot modes with vehicle callouts.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-05/tfsafari-02.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-05/tfsafari-03.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-05/tfsafari-04.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-05/tfsafari-08.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "member",
+      "role": "Leg (right, per TFW recap)",
+      "pack": "Set C"
+    },
+    {
+      "id": "gla-06",
+      "code": "GLA-06",
+      "nameEn": "Bulldozer",
+      "nameZh": "推土机",
+      "aliases": [],
+      "homage": "Bonecrusher (G1 Constructicon)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Set C (GLA-05 & GLA-06)",
+      "altMode": "Bulldozer",
+      "combinerRole": "Leg (Set C).",
+      "heightRobot": "~22 cm",
+      "heightCombined": null,
+      "materials": [
+        "ABS",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Red magnetic LED headlights (standard green release).",
+      "status": "released",
+      "announced": "2024",
+      "released": "Set C originally around early 2025. Reissues exist.",
+      "priceOfficial": "399 RMB per two-member set (2024 Weibo MSRP).",
+      "priceRetail": "Western two-packs commonly ~USD 110.",
+      "notes": "Official English name Bulldozer. Homage used here: bulldozer ≈ Bonecrusher.",
+      "sources": [
+        "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5"
+      ],
+      "images": [
+        {
+          "file": "images/gla-06/tfsafari-01.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "Official-style Set C promo: excavator and bulldozer.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-06/tfsafari-02.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-06/tfsafari-03.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-06/tfsafari-04.jpg",
+          "credit": "TFSafari (retailer reproduction of official studio shots)",
+          "sourceUrl": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla05-gla-05-gla06-gla-06-bonecrusher-scavenger-giant-legion-heavy-builder-constructors-devastator-combiner-2-in-1-set-21-5cm-8-5",
+          "caption": "TFSafari Set C gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "member",
+      "role": "Leg",
+      "pack": "Set C"
+    },
+    {
+      "id": "gla-combined",
+      "code": "GLA-01–06",
+      "nameEn": "Giant Legion (combined Heavy Builder)",
+      "nameZh": "巨型军团 · 重型建造者合体",
+      "aliases": [
+        "Heavy Duty Builder",
+        "Heavy Builder",
+        "unofficial Devastator-style combiner"
+      ],
+      "homage": "Devastator (G1 Constructicons)",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / Heavy Duty Builder / 重型建造者",
+      "box": "Three two-packs (Set A+B+C). Not a single gift-set box on the standard green release.",
+      "altMode": "Six construction vehicles (see members)",
+      "combinerRole": "Combined robot. Six members, triple-change, no extra partsforming for the original combined mode. Limbs not interchangeable until GLA-07.",
+      "heightRobot": "Members ~22 cm each",
+      "heightCombined": "~38 cm to top of head; ~45 cm including weapon / shoulder kibble (official Weibo / TFW).",
+      "materials": [
+        "ABS",
+        "alloy",
+        "PC (early Weibo)",
+        "soft PVC / rubber"
+      ],
+      "leds": "Red magnetic LED headlights on members; combined visor also lights on production samples.",
+      "status": "released",
+      "announced": "Gray model shown Jan 2024 (Weibo / TFW 22 Jan 2024). Originally targeted Q2 2024; members shipped as two-packs from late 2024 into 2025.",
+      "released": "All six standard-green members have shipped. Combined display requires A+B+C.",
+      "priceOfficial": "1197 RMB for the three two-packs (2024 Weibo MSRP).",
+      "priceRetail": "Western full-set listings commonly ~USD 330–350 (Newtype listed USD 349.99 with a March 2026 date on that SKU).",
+      "notes": "TFSource product copy notes a dinosaur figure shown in some marketing is not included. Original combined mode uses a non-G1 limb layout; GLA-07 adds G1 limb configuration and more height.",
+      "sources": [
+        "https://news.tfw2005.com/2024/01/22/mecha-invasion-giant-legion-g1-devastator-prototype-images-502483",
+        "https://tformers.com/52144",
+        "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+        "https://tformers.com/53150"
+      ],
+      "images": [
+        {
+          "file": "images/gla-combined/tfsource-later-00.jpg",
+          "credit": "TFSource (retailer official product shots)",
+          "sourceUrl": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "caption": "Production combined mode, standard green (TFSource product gallery).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfsource-later-01.jpg",
+          "credit": "TFSource (retailer official product shots)",
+          "sourceUrl": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "caption": "TFSource Giant Legion combined / set gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfsource-later-02.jpg",
+          "credit": "TFSource (retailer official product shots)",
+          "sourceUrl": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "caption": "TFSource Giant Legion combined / set gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfsource-00.jpg",
+          "credit": "TFSource (retailer official product shots)",
+          "sourceUrl": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "caption": "TFSource gallery (includes gray-model combined shot used in listings).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfsource-01.jpg",
+          "credit": "TFSource (retailer official product shots)",
+          "sourceUrl": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "caption": "TFSource set gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfsource-02.jpg",
+          "credit": "TFSource (retailer official product shots)",
+          "sourceUrl": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "caption": "TFSource set gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfw-proto-1.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2024/01/22/mecha-invasion-giant-legion-g1-devastator-prototype-images-502483",
+          "caption": "Official gray-model combined mode (Weibo recap via TFW2005, Jan 2024).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfw-proto-2.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2024/01/22/mecha-invasion-giant-legion-g1-devastator-prototype-images-502483",
+          "caption": "Official gray-model gallery, Jan 2024.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tfw-proto-3.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2024/01/22/mecha-invasion-giant-legion-g1-devastator-prototype-images-502483",
+          "caption": "Official gray-model gallery, Jan 2024.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tformers-proto-11.jpg",
+          "credit": "Tformers (official Mecha Invasion prototype images)",
+          "sourceUrl": "https://tformers.com/52144",
+          "caption": "Official Giant Legion prototype combined shot (Mecha Invasion via Tformers, Mar 2024).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-combined/tformers-proto-13.jpg",
+          "credit": "Tformers (official Mecha Invasion prototype images)",
+          "sourceUrl": "https://tformers.com/52144",
+          "caption": "Official prototype gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "combiner",
+      "role": "Combined giant",
+      "stores": [
+        {
+          "store": "TFSource",
+          "url": "https://tfsource.com/3rd-party-figures/giant-legion-set-of-6-heavy-duty-builder-mecha-invasion/",
+          "price": 349.99,
+          "currency": "USD",
+          "availability": "Preorder · est. Nov 2026 (3 two-packs)",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "gla-yellow",
+      "code": "GLA-01–06Y",
+      "nameEn": "Giant Legion Yellow limited edition",
+      "nameZh": "巨型军团 黄色限定",
+      "aliases": [
+        "G2 yellow",
+        "黄大力",
+        "GLA-01-06Y"
+      ],
+      "homage": "G2 Devastator / yellow Constructicons",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / 重型建造者",
+      "box": "Boutique gift box; combined form packed assembled (official highlight vs green three-box release).",
+      "altMode": "Same six construction vehicles, yellow / orange colorway",
+      "combinerRole": "Same combined Heavy Builder; gift-box combined packing.",
+      "heightRobot": "~22 cm",
+      "heightCombined": "~38 cm to head; ~45 cm with weapon (same as green).",
+      "materials": [
+        "ABS",
+        "alloy (nickel-plated vs green)",
+        "soft PVC"
+      ],
+      "leds": "Ice-blue magnetic LED headlights (difference vs red on green).",
+      "status": "released",
+      "announced": "2025 (Weibo / retailer listings). Restocks into 2026.",
+      "released": "Shipped; OhMyPrimus listed a 28 May 2026 restock preorder window. In-stock at multiple shops as of 2026.",
+      "priceOfficial": "unknown (not quoted on the original 399 RMB green MSRP post)",
+      "priceRetail": "Mecha Maidens listed USD 330 gift-box set. Other shops vary (CAD 474.99 at eCollectibles; S$268 at OhMyPrimus restock listing).",
+      "notes": "Official differences vs green (retailer copy of factory highlights): new color/pad-print; electroplated member weapons; ice-blue LEDs; nickel-plated alloy; boutique gift box. Members: GLA-01Y Loader through GLA-06Y Bulldozer.",
+      "sources": [
+        "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+        "https://ohmyprimus.com/mcigla0106y.html",
+        "https://ecollectibles.ca/products/untitled-may25_11-24"
+      ],
+      "images": [
+        {
+          "file": "images/gla-yellow/arcane-yellow-main.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Yellow limited combined mode (Arcane Collect product gallery).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-yellow/arcane-yellow-01.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Giant Legion packaging / gift-box photography.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-yellow/arcane-yellow-02.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Yellow edition gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-yellow/arcane-yellow-03.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Yellow edition gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-yellow/arcane-yellow-04.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Yellow edition gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-yellow/arcane-yellow-05.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Yellow edition gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-yellow/arcane-yellow-06.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-giant-legion-devastator-limited-yellow-edition-full-set-of-6/",
+          "caption": "Yellow edition gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "edition",
+      "role": "Full set · yellow",
+      "stores": [
+        {
+          "store": "BigBadToyStore",
+          "url": "https://www.bigbadtoystore.com/product/giant-legion-gla-01-06y-titan-creation-yellow-edition-figure-set-177624",
+          "price": 284.99,
+          "currency": "USD",
+          "availability": "Preorder · est. Nov 2026",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "gla-transparent",
+      "code": "GLA-01–06C / MIGLA01-06T",
+      "nameEn": "Giant Legion Transparent / Crystal version",
+      "nameZh": "巨型军团 透明限定版",
+      "aliases": [
+        "Clear",
+        "Crystal",
+        "Construct Titan Crystal Version",
+        "GLA-01-06T"
+      ],
+      "homage": "Clear / crystal Constructicon combiner",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / 重型建造者",
+      "box": "Full set of 6 (retailer SKUs MIGLA01-06T / GLA-01-06C)",
+      "altMode": "Same six construction vehicles in translucent plastic",
+      "combinerRole": "Same combined Heavy Builder in clear / crystal plastics.",
+      "heightRobot": "~22 cm",
+      "heightCombined": "Tformers recap: combined ~15 in / 38.1 cm (head). Same 38/45 cm family as standard unless a later factory note says otherwise.",
+      "materials": [
+        "Translucent ABS (and related plastics); other materials unknown vs standard"
+      ],
+      "leds": "unknown (not specified in the June 2026 Tformers recap)",
+      "status": "preorder",
+      "announced": "Weibo 11 Jun 2026: 透明限定版开启预订. Tformers article 11 Jun 2026.",
+      "released": "Not yet. Official Mecha Invasion Weibo (reply to a fan, 9 Oct 2026): 预计月底或者下月初 — expected end of October or early November 2026 for the clear six-piece set (彩透版套六). Retailer ETAs checked 14 Oct 2026: BigBadToyStore “Estimated to arrive October 2026”; Tokullectibles “Estimated: October 2026” (preorder closed); Arcane Collect estimated shipping October 2026.",
+      "priceOfficial": "unknown",
+      "priceRetail": "unknown at time of cataloguing",
+      "notes": "Weibo (11 Jun 2026) also said the accessory-pack mold was in progress (samples expected late July) and the dinosaur combiner was in revision, with a full gray set planned for National Day Wonder Festival.",
+      "sources": [
+        "https://tformers.com/56816",
+        "https://weibo.com/6612946062/R3FIsEdpv",
+        "https://nova.tfs-express.com/mecha-invasion/3622-722-mecha-invasion-giant-legion-gla-set-of-6-transparent-version.html",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-164",
+        "https://www.bigbadtoystore.com/product/giant-legion-gla-01-06c-titan-creation-clear-ver-figure-set-191700",
+        "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-01-06c-titan-crystal-version",
+        "https://arcanecollect.com/product/mecha-invasion-devastator-giant-legion-crystal-transparent-version-gla-01-06c/"
+      ],
+      "images": [
+        {
+          "file": "images/gla-transparent/crystal-00.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal / transparent combined mode (Arcane Collect hosted official-style shot, GLA-01-06C).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-01.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-02.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-04.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-05.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-06.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-07.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-08.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-transparent/crystal-09.jpg",
+          "credit": "Arcane Collect (retailer reproduction of official shots)",
+          "sourceUrl": "https://arcanecollect.com/",
+          "caption": "Crystal version gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "edition",
+      "role": "Full set · clear",
+      "stores": [
+        {
+          "store": "Oh My Primus (SG)",
+          "url": "https://ohmyprimus.com/sg/mcigla0106c.html",
+          "price": 225.0,
+          "currency": "SGD",
+          "availability": "Preorder · ETA Oct 2026",
+          "checked": "2026-10-24"
+        },
+        {
+          "store": "Tokullectibles",
+          "url": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-01-06c-titan-crystal-version",
+          "price": 275.0,
+          "currency": "USD",
+          "availability": "Preorder closed / sold out",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "gla-black",
+      "code": "unknown",
+      "nameEn": "Giant Legion Black limited edition (set of 7)",
+      "nameZh": "巨型军团 重型建造者 黑色限定版大全套装",
+      "aliases": [
+        "Black limited",
+        "黑色限定",
+        "Black/Purple",
+        "MI-DEVASTATOR-B",
+        "Devastator Set of 7 Black Version"
+      ],
+      "homage": "Black / purple Heavy Builder (Devastator-style) colorway",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / 重型建造者",
+      "box": "Limited full set: six construction vehicles plus the interchangeable accessory pack (GLA-07). Retailers list it as a “Set of 7”.",
+      "altMode": "Same six construction vehicles plus GLA-07 container-truck kit parts, in black / purple colorway",
+      "combinerRole": "Combined Heavy Builder; Weibo notes two modes freely switchable (original layout and GLA-07 / G1 limb configuration).",
+      "heightRobot": "~22 cm (same member family as green/yellow; not re-stated on the black Weibo post)",
+      "heightCombined": "unknown for this SKU specifically. Standard green is ~38 cm head / ~45 cm with weapon; GLA-07 Weibo/TFW figures of 45–50 cm with the kit apply to the upgrade family, not separately confirmed for black.",
+      "materials": [
+        "ABS (ShowZ / TF-Direct listing)"
+      ],
+      "leds": "unknown (not stated on the 11 Sep 2026 Weibo post)",
+      "status": "released",
+      "announced": "Weibo 11 Sep 2026: 黑色限定版大全套装 定妆图公布.",
+      "released": "Shipped. Official Weibo (20 Oct 2026) refers to the black set as already shipped (已经出货). Weibo (11 Sep 2026) had aimed for October shipment.",
+      "priceOfficial": "unknown",
+      "priceRetail": "unknown (ShowZ/TF-Direct pages show placeholder deposit-style prices only; not recorded as MSRP)",
+      "notes": "Official Weibo (11 Sep 2026): limited-sale complete set including the interchangeable accessory pack and six engineering vehicles; two modes switchable; October shipment aim. TFW2005 boards mirrored the Weibo text and hosted the 定妆图 gallery the same day. ShowZ / TF-Direct SKU MI-DEVASTATOR-B (“Devastator Set of 7 Black Version”). Official Mecha Invasion product code for the black gift set is unpublished here (recorded as unknown). Official Weibo (20 Oct 2026): owners of the already-shipped black set will get the improved combined-mode head as a free replacement part (免费补件), arranged through the sellers.",
+      "sources": [
+        "https://weibo.com/6612946062/5341985460191531",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+        "https://www.showzstore.com/mecha-invasion-devastator-set-of-7-black-version_p8111.html",
+        "https://tf-direct.com/mi-devastator-b-p5980.html",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-163",
+        "https://weibo.com/6612946062/5356201950577343",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-166"
+      ],
+      "images": [
+        {
+          "file": "images/gla-black/16.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo photo)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-163",
+          "caption": "Finished-product black limited combined mode with box partly visible (official @机械入侵Mecha_Invasion photo, mid-Oct 2026).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/03.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Black limited combined mode with upgrade parts (official Weibo 定妆图, 11 Sep 2026).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/08.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Black / purple combined mode, alternate angle (Weibo).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/05.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Combined upper body close-up, black limited colorway (Weibo).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/01.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "GLA-07 upgrade kit container-truck mode in black (Weibo watermark).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/12.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Six Heavy Builder members in black limited robot modes (Weibo).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/02.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/04.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/06.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/07.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/09.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/10.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/11.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/13.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/14.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-black/15.jpg",
+          "credit": "TFW2005 boards (hosted official Weibo promo photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-157",
+          "caption": "Official Weibo gallery shot (black limited set).",
+          "kind": "official"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "edition",
+      "role": "Full set of 7 · black, includes GLA-07",
+      "stores": [
+        {
+          "store": "Tokullectibles",
+          "url": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-01-07b-titan-obsidian-version",
+          "price": 300.0,
+          "currency": "USD",
+          "availability": "Preorder open",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "gla-07",
+      "code": "GLA-07",
+      "nameEn": "Giant Legion accessory / upgrade kit",
+      "nameZh": "巨型军团 互换配件包",
+      "aliases": [
+        "Set D",
+        "upgrade kit",
+        "accessory pack"
+      ],
+      "homage": "G1 Devastator limb layout + height boost + storage truck",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / 重型建造者",
+      "box": "GLA-07 upgrade kit (GLA-01–06 not included)",
+      "altMode": "All kit parts transform / store as a container truck",
+      "combinerRole": "Adds G1 limb configuration to the existing six-member combined mode; new combined head sculpt + alt expression; taller combined robot; articulated replacement hands for the six members (sprue); enhanced giant blaster barrel. Official WeChat (20 Oct 2026): designers made a new, improved combined-mode helmet/head in response to fan complaints about the small head; it will ship in the Set D accessory pack.",
+      "heightRobot": null,
+      "heightCombined": "ChinaJoy Weibo (31 Jul–3 Aug 2026): 合体后头顶总高 45 cm. TFW recap of later Weibo (25 Aug 2026): boosts combined height up to 50 cm. Record both; do not collapse them.",
+      "materials": "unknown (kit-specific breakdown not published beyond the existing ABS/alloy/PVC family)",
+      "leds": "LED magnetic modules for headlights + blaster (Tokullectibles copy of factory highlights).",
+      "status": "preorder",
+      "announced": "Weibo 11 Jun 2026: 配件包模具进行中, samples expected late July. ChinaJoy listing as 互换配件包. Colored samples circulated ~21 Aug 2026; TFW news 25 Aug 2026.",
+      "released": "Not yet. Tokullectibles scheduled release estimate November 2026. Aiming Oct–Nov 2026.",
+      "priceOfficial": "unknown",
+      "priceRetail": "Tokullectibles USD 105 (full payment) / USD 55 deposit as of Aug 2026.",
+      "notes": "Weibo ChinaJoy copy: 实现手脚互换玩法，全套配件可收纳为运载卡车. Early Weibo (undated in the 2025–26 catch-up post) described a fourth box as a drill vehicle + truck plus articulated replacement parts, with the truck becoming combiner accessories. Factory include list via Tokullectibles: combined head sculpt + alt expression; enhanced giant blaster barrel; LED magnetic modules; replacement articulated hands for 6 members (sprue); container-truck transformation parts. Official WeChat (20 Oct 2026): 「结合了大家的意见，设计师连夜设计出配件包合体头盔，大家吐槽的小头有改善了，而且会包含在D套配件包里面一起出货」 — gray prototype head shown.",
+      "sources": [
+        "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+        "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-07-accessory-pack",
+        "https://weibo.com/6612946062/5327226720485750",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-165",
+        "https://weibo.com/6612946062/5356201950577343",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-166"
+      ],
+      "images": [
+        {
+          "file": "images/gla-07/wechat-2026-10-20-head.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion WeChat post, 20 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-165",
+          "caption": "Official gray prototype of the redesigned combined-mode helmet/head for the accessory pack (Set D). Mecha Invasion: the small head fans complained about has been improved and it will ship inside the Set D accessory pack.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-06.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 G1-style combined configuration, front and rear (TFW 25 Aug 2026 gallery).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-01.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "Combined head / LED visor close-up from the upgrade-kit Weibo recap.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-02.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 02.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-03.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 03.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-04.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 04.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-05.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 05.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-07.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 07.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-08.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 08.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-09.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 09.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-10.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 10.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-11.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 11.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-12.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 12.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-13.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 13.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-16.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 16.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/tfw-upgrade-18.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/25/mecha-invasion-giant-legion-g1-devastator-upgrade-kit-572494",
+          "caption": "GLA-07 promotional image 18.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/toku-gla07-01.jpg",
+          "credit": "Tokullectibles (retailer official product shots)",
+          "sourceUrl": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-07-accessory-pack",
+          "caption": "Tokullectibles GLA-07 product gallery (official-style).",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/toku-gla07-02.jpg",
+          "credit": "Tokullectibles (retailer official product shots)",
+          "sourceUrl": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-07-accessory-pack",
+          "caption": "Tokullectibles GLA-07 product gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/toku-gla07-03.jpg",
+          "credit": "Tokullectibles (retailer official product shots)",
+          "sourceUrl": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-07-accessory-pack",
+          "caption": "Tokullectibles GLA-07 product gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-07/weibo-2026-10-20-head-01.jpg",
+          "credit": "Mecha Invasion official Weibo, via TFW2005 boards",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-166",
+          "caption": "Improved combined-mode helmet/head, gray prototype (official Weibo, 20 Oct 2026) — view 1",
+          "kind": "prototype"
+        },
+        {
+          "file": "images/gla-07/weibo-2026-10-20-head-02.jpg",
+          "credit": "Mecha Invasion official Weibo, via TFW2005 boards",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-mp-devastator.1254108/page-166",
+          "caption": "Improved combined-mode helmet/head, gray prototype (official Weibo, 20 Oct 2026) — view 2",
+          "kind": "prototype"
+        }
+      ],
+      "project": "heavy-builder",
+      "kind": "accessory",
+      "role": "Upgrade kit · G1 limb layout, new head, +height; parts form a truck",
+      "stores": [
+        {
+          "store": "Tokullectibles",
+          "url": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-07-accessory-pack",
+          "price": 105.0,
+          "currency": "USD",
+          "availability": "Preorder open · est. Nov 2026",
+          "checked": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "gla-dino",
+      "code": "unknown",
+      "nameEn": "Giant Legion dinosaur combiner",
+      "nameZh": "巨型军团 · 恐龙组合金刚",
+      "aliases": [
+        "Volcanicus-style",
+        "恐龙组合金刚",
+        "霸王龙 / T-rex torso",
+        "三角龙"
+      ],
+      "homage": "Volcanicus-style dinosaur combiner (Grimlock-style T-rex torso; Triceratops and pterosaur members shown). Collector shorthand — not licensed names.",
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "恐龙组合金刚 / Dinosaur combiner team (official English team name unknown)",
+      "box": "First box aiming to ship before year-end (Weibo mid-2026). Full gray set shown at National Day Wonder Festival Shanghai 3–4 Oct 2026 (booth W2-B11).",
+      "altMode": "Team: Tyrannosaurus rex (torso), Triceratops (三角龙), pterosaur/flying dinosaur, plus additional members forming the combined robot. Exact full roster / official English names not published on the visible placards reviewed.",
+      "combinerRole": "Full dinosaur combiner. Combined mode gray model shown at WF Shanghai / official WeChat (~2 Oct 2026). T-rex is the torso member; limb dinobots form arms/legs (board observers note dino heads used as weapon/shoulder elements).",
+      "heightRobot": "Official acrylic card for 三角龙 (Triceratops) lists about 26.5 cm (约26.5cm). Other individuals not read from placards in the photos saved.",
+      "heightCombined": "Earlier show text listed a tentative ~38 cm combined height for the Grimlock-related Giant Legion project. No new combined-height number was confirmed on the WF placards in the photos reviewed — treat 38 cm as historical/tentative unless a new factory figure is published.",
+      "materials": "unknown",
+      "leds": "ChinaJoy 2026 Weibo: finished T-rex product planned with dual weapons + light-and-sound base. WF gray models include translucent flame / effect parts on the T-rex display.",
+      "status": "gray-model",
+      "announced": "First shown around 3 Oct 2023 (TFW boards). ChinaJoy 2026: 主体霸王龙已开模, Q4 target. Weibo 1 Oct 2026: WF Shanghai 3–4 Oct booth W2-B11. Official WeChat ~2 Oct 2026: complete gray-model team + combined mode displayed.",
+      "released": "Not yet. Prior Weibo: first box aiming before year-end (年前); T-rex finished goods previously aimed Q4 2026.",
+      "priceOfficial": "unknown",
+      "priceRetail": "unknown",
+      "notes": "As of the 2–3 Oct 2026 Wonder Festival / WeChat reveal, Mecha Invasion showed a complete dinosaur-combiner gray-model set including combined mode — not only the T-rex. Confirmed on-card: line GIANT LEGION, title 恐龙组合金刚, member 三角龙 at about 26.5 cm. Official English product names and member product codes were not published on the placards visible in the saved photos. Do not invent GLA member codes. Pterosaur and T-rex members are visible but their Chinese card names were not clearly captured in the saved stills. Titan Empyrean combined mode was not shown in the concurrent board shares reviewed.",
+      "sources": [
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-volcanicus-dinobot-combiner.1269089/page-10",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-volcanicus-dinobot-combiner.1269089/page-9",
+        "https://weibo.com/u/6612946062",
+        "https://weibo.com/6612946062/5327226720485750"
+      ],
+      "images": [
+        {
+          "file": "images/gla-dino/wechat-2026-10-02-01.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion WeChat / Wonder Festival booth photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-volcanicus-dinobot-combiner.1269089/page-10",
+          "caption": "Official gray models at Shanghai Wonder Festival (WeChat share, ~2 Oct 2026): combined dinosaur combiner in the rear, T-rex beast mode with flame effect (left), individual robot (center), and Triceratops beast mode (right). GIANT LEGION display placards in the case.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-dino/wechat-2026-10-02-02.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion WeChat / Wonder Festival booth photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-volcanicus-dinobot-combiner.1269089/page-10",
+          "caption": "Triceratops beast-mode gray model with official acrylic card: GIANT LEGION / 恐龙组合金刚 · 三角龙 / (约26.5cm). Combined-mode lower body visible behind.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-dino/wechat-2026-10-02-03.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion WeChat / Wonder Festival booth photos)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-giant-legion-volcanicus-dinobot-combiner.1269089/page-10",
+          "caption": "Pterosaur / flying-dinosaur member gray models: beast mode on flight stand (top) and corresponding robot mode on textured base (bottom). Official WeChat booth share.",
+          "kind": "official"
+        },
+        {
+          "file": "images/gla-dino/chinajoy-2026-group.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "ChinaJoy 2026 display case (via TFW Titan Empyrean gallery). T-rex gray model and Giant Legion card are in the lower portion of the case. Not a solo official pack shot.",
+          "kind": "official"
+        }
+      ],
+      "project": "dino-combiner",
+      "kind": "combiner",
+      "role": "Combined team"
+    },
+    {
+      "id": "te-01",
+      "code": "TE01",
+      "nameEn": "Titan Empyrean — Canfa War God (combiner)",
+      "nameZh": "泰坦星寰 · 参伐战神",
+      "aliases": [
+        "Team Warrior TE01"
+      ],
+      "homage": "Bruticus (G1 Combaticons)",
+      "line": "titan-empyrean",
+      "lineNameEn": "Titan Empyrean",
+      "lineNameZh": "泰坦星寰",
+      "squad": "参伐战神 / TE01 (twenty-eight mansions / 二十八星宿 themed military combiner)",
+      "box": "Sold as individual members. TE01A 觜策 (first) and TE01B 垒戍 (second, preorder opened 14 Oct 2026). Remaining member codes unpublished.",
+      "altMode": "Combined military combiner (mode not shown as of 7 Aug 2026). Members are realistic Earth military vehicles.",
+      "combinerRole": "Full combiner. Member count not officially stated as a number in the Weibo spec list; Bruticus-style 5-member assumption is unofficial — do not treat as confirmed.",
+      "heightRobot": "Members ~26 cm (stated for TE01A; ChinaJoy card repeats 26 cm individual / 55 cm combined).",
+      "heightCombined": "~55 cm to head (official Weibo 6 Aug 2026 and ChinaJoy).",
+      "materials": [
+        "ABS",
+        "POM",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Magnetic eye lights, magnetic vehicle lights (series spec). Combined-mode lighting unknown — combiner mode not shown.",
+      "status": "in-development",
+      "announced": "ChinaJoy 2026 (31 Jul–3 Aug): two bodies shown, 觜策 jeep and 垒戍 tank. Preorder post 6 Aug 2026. TFW 7 Aug 2026: combiner mode yet to be revealed.",
+      "released": "Not yet. TE01A planned Q4 2026; TE01B planned Q1 2027 (official Weibo).",
+      "priceOfficial": "待公布 / TBA (Weibo 6 Aug 2026 item 10).",
+      "priceRetail": "unknown",
+      "notes": "No official combined-mode photos as of this catalog date. Official Weibo replies (15 Oct 2026): combined image was held back from the trade show because of last-minute changes; an updated image is expected around the end of October 2026; replies also said 「袭击快来了」 (\"the attack is coming soon\"), which fans read as a hint at the next member — not a confirmed name. TE01B is officially the left leg.",
+      "sources": [
+        "https://weibo.com/6612946062/5328885852149949",
+        "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+        "https://weibo.com/6612946062/5327226720485750",
+        "https://weibo.com/6612946062/5354072792372546"
+      ],
+      "images": [],
+      "project": "te01-canfa",
+      "kind": "combiner",
+      "role": "Combined giant"
+    },
+    {
+      "id": "te-01a",
+      "code": "TE01A",
+      "nameEn": "ZiCe",
+      "nameZh": "觜策",
+      "aliases": [
+        "Team Warrior TE01A",
+        "MI-TE01A"
+      ],
+      "homage": "Swindle (G1 Combaticon)",
+      "line": "titan-empyrean",
+      "lineNameEn": "Titan Empyrean",
+      "lineNameZh": "泰坦星寰",
+      "squad": "参伐战神 / TE01",
+      "box": "Sold individually. First member of TE01. Initial preorders include a custom bonus item.",
+      "altMode": "Military jeep / armored tactical 4x4. Vehicle mode described as ~1:6 scale.",
+      "combinerRole": "Squad command / staff officer (小队指挥参谋). Combiner limb role not published. Combiner mode not shown.",
+      "heightRobot": "26 cm to top of head (official Weibo).",
+      "heightCombined": "~55 cm (series combined height; this figure is one member).",
+      "materials": [
+        "ABS",
+        "POM",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Magnetic eye lights, magnetic vehicle lights, magnetic swap faces, magnetic weapon grip.",
+      "status": "preorder",
+      "announced": "ChinaJoy 2026, then Weibo preorder 6 Aug 2026. Gray prototypes on Weibo recap 7 Aug 2026.",
+      "released": "Not yet. Planned Q4 2026 shipment (Weibo item 9).",
+      "priceOfficial": "待公布 / TBA.",
+      "priceRetail": "Placeholder listings exist (TF-Direct showed USD 1.00 as a stub). Treat real street price as unknown.",
+      "notes": "Each unit includes a 1:6 realistic heavy machine gun with modular parts, plus a special-effects display base. First-batch preorders include a custom bonus. Highly realistic vehicle detailing. Articulation: damped joints, gear joints, alloy joints.",
+      "sources": [
+        "https://weibo.com/6612946062/5328885852149949",
+        "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+        "https://www.tf-direct.com/mi-te01a-p5943.html"
+      ],
+      "images": [
+        {
+          "file": "images/te-01a/tfw-swindle-15.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "Gray-model vehicle mode: armored tactical jeep / 4x4 with roof missile rack (official Weibo via TFW).",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-10.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "Gray-model robot mode, official Weibo studio/diorama shot (TFW gallery labeled Swindle / TE01A).",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-01.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "Gray-model robot mode with rifle.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-02.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "TE01A / Swindle-homage prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-03.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "TE01A prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-04.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "TE01A prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-08.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "1:6 machine gun accessory + first-batch bonus teaser (official Weibo).",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-09.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "TE01A prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-11.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "TE01A prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfw-swindle-12.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "TE01A prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfdirect-01.jpg",
+          "credit": "TF-Direct (retailer official product shots)",
+          "sourceUrl": "https://www.tf-direct.com/mi-te01a-p5943.html",
+          "caption": "TF-Direct TE01A product image.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfdirect-02.jpg",
+          "credit": "TF-Direct (retailer official product shots)",
+          "sourceUrl": "https://www.tf-direct.com/mi-te01a-p5943.html",
+          "caption": "TF-Direct TE01A product image.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-01a/tfdirect-03.jpg",
+          "credit": "TF-Direct (retailer official product shots)",
+          "sourceUrl": "https://www.tf-direct.com/mi-te01a-p5943.html",
+          "caption": "TF-Direct TE01A product image.",
+          "kind": "official"
+        }
+      ],
+      "project": "te01-canfa",
+      "kind": "member",
+      "role": "Role unpublished (squad command)"
+    },
+    {
+      "id": "te-leishu",
+      "code": "TE01B",
+      "nameEn": "Lei Shu",
+      "nameZh": "垒戍",
+      "aliases": [
+        "TE01B",
+        "Brawl homage",
+        "Fortress (machine translation of 垒戍)"
+      ],
+      "homage": "Brawl (G1 Combaticon)",
+      "line": "titan-empyrean",
+      "lineNameEn": "Titan Empyrean",
+      "lineNameZh": "泰坦星寰",
+      "squad": "参伐战神 / TE01",
+      "box": "Sold individually. Second member (第二弹) of TE01 参伐战神.",
+      "altMode": "Realistic main battle tank (official copy: 百式主战坦克三变机甲).",
+      "combinerRole": "Left leg of 参伐战神 (official Weibo 14 Oct 2026). Combiner mode not shown yet.",
+      "heightRobot": "25 cm to top of head (official Weibo 14 Oct 2026). Earlier ChinaJoy card listed 26 cm for the members shown; both recorded.",
+      "heightCombined": "~55 cm to head (official Weibo 14 Oct 2026).",
+      "materials": [
+        "ABS",
+        "POM",
+        "alloy",
+        "soft PVC"
+      ],
+      "leds": "Magnetic eye lights, magnetic vehicle lighting, magnetic weapon grip (official Weibo 14 Oct 2026).",
+      "status": "preorder",
+      "announced": "ChinaJoy 2026: 垒戍（主战坦克） shown with 觜策. TFW 7 Aug 2026 recap of gray prototypes. Official Weibo 14 Oct 2026: 泰坦星寰 第二弹预售开启 — TE01B 垒戍 preorders open.",
+      "released": "Not yet. Official Weibo 14 Oct 2026: 明年第一季度出货 (ships Q1 2027).",
+      "priceOfficial": "价格待公布 / TBA (official Weibo 14 Oct 2026).",
+      "priceRetail": "unknown",
+      "notes": "Each unit includes a 1:6 realistic heavy machine gun with modular swappable parts (shoulder stock detaches and reverses) and an effects display base. Damped, gear and alloy joints. Official Weibo replies on 15 Oct 2026: the combined image was held back from the trade show because of last-minute changes, and an updated image is expected around the end of October.",
+      "sources": [
+        "https://weibo.com/6612946062/5354072792372546",
+        "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+        "https://weibo.com/6612946062/5327226720485750",
+        "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+        "https://www.metalrobot.it/titan-empyrean-bruticus-swindle-brawl-mecha-invasion-mostra-il-prototipo/"
+      ],
+      "images": [
+        {
+          "file": "images/te-leishu/weibo-te01b-01.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode, front. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-02.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode, rear three-quarter. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-03.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode, side. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-04.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode, three-quarter. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-05.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode pose. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-06.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, upper-body detail. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-07.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode, back. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-08.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, shoulder / torso detail. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-09.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode pose. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-10.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, 1:6 heavy machine gun accessory. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-11.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, robot mode holding the heavy machine gun. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-12.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, tank mode. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-13.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, tank turret detail. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-14.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, tank mode, front three-quarter. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-15.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, tank mode, side. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/weibo-te01b-16.jpg",
+          "credit": "TFW2005 boards (hosted official Mecha Invasion Weibo preorder images, 14 Oct 2026)",
+          "sourceUrl": "https://www.tfw2005.com/boards/threads/mecha-invasion-bruticus.1294694/page-20",
+          "caption": "Official TE01B 垒戍 gray prototype, tank mode, rear three-quarter. Titan Empyrean / 机械入侵 watermark.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-1.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "ChinaJoy 2026 gray-model robot of 垒戍 with official display card.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-2.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "垒戍 gray prototype (TFW gallery).",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-3.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "ChinaJoy 2026 case: 垒戍 robot + tank, plus other Mecha Invasion lines in the same cabinet.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-4.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "垒戍 gray prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-5.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "垒戍 gray prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-6.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "垒戍 gray prototype gallery.",
+          "kind": "official"
+        },
+        {
+          "file": "images/te-leishu/tfw-brawl-7.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "垒戍 gray prototype gallery.",
+          "kind": "official"
+        }
+      ],
+      "project": "te01-canfa",
+      "kind": "member",
+      "role": "Left leg"
+    },
+    {
+      "id": "micro-star",
+      "code": "unknown",
+      "nameEn": "Micro-Star Engineering Team",
+      "nameZh": "微星工程队",
+      "aliases": [
+        "微核重工 first combiner"
+      ],
+      "homage": "Micro-scale Constructicon / Devastator-style combiner",
+      "line": "micro-core",
+      "lineNameEn": "Micro-Core Heavy Industry",
+      "lineNameZh": "微核重工",
+      "squad": "微星工程队 (first work in the line)",
+      "box": "unknown",
+      "altMode": "Construction vehicles (gray models shown). Triple-change + assembly play (拼装玩法+三变合体设计).",
+      "combinerRole": "Micro-scale combiner. Member count unknown.",
+      "heightRobot": "unknown",
+      "heightCombined": "unknown",
+      "materials": "unknown",
+      "leds": "unknown",
+      "status": "gray-model",
+      "announced": "ChinaJoy 2026 Weibo: 灰模持续监修中.",
+      "released": "Not yet. No ship window published in the ChinaJoy recap.",
+      "priceOfficial": "unknown",
+      "priceRetail": "unknown",
+      "notes": "Only official information found is the ChinaJoy 2026 bullet and the gray models in the show case. No product codes, prices, or member names published in sources reviewed. Catalog image is a group display shot, not a solo pack shot.",
+      "sources": [
+        "https://weibo.com/6612946062/5327226720485750",
+        "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474"
+      ],
+      "images": [
+        {
+          "file": "images/micro-star/chinajoy-2026-group.jpg",
+          "credit": "TFW2005 news gallery (hosted official Weibo recap photos)",
+          "sourceUrl": "https://news.tfw2005.com/2026/08/07/mecha-invasion-titan-empyrean-bruticus-swindle-brawl-prototype-images-571474",
+          "caption": "ChinaJoy 2026 case (via TFW). 微核重工 / 微星工程队 gray models occupy the upper-right of the cabinet. Not a solo official pack shot.",
+          "kind": "official"
+        }
+      ],
+      "project": "micro-star",
+      "kind": "combiner",
+      "role": "Micro combiner team"
+    }
+  ],
+  "projects": [
+    {
+      "id": "heavy-builder",
+      "line": "giant-legion",
+      "nameEn": "Heavy Builder",
+      "nameZh": "重型建造者 · 大力神",
+      "homage": "Devastator (G1 Constructicons)",
+      "combinerId": "gla-combined",
+      "summary": "Six construction vehicles (GLA-01–06) that combine into a ~38 cm (45 cm with weapon) giant; ~50 cm with the GLA-07 kit. Released in green, plus yellow, clear and black editions.",
+      "groups": [
+        {
+          "title": "Combined form",
+          "kind": "combiner",
+          "ids": [
+            "gla-combined"
+          ]
+        },
+        {
+          "title": "Members (green release, sold as Set A / B / C two-packs)",
+          "kind": "member",
+          "ids": [
+            "gla-01",
+            "gla-02",
+            "gla-03",
+            "gla-04",
+            "gla-05",
+            "gla-06"
+          ]
+        },
+        {
+          "title": "Upgrade kit",
+          "kind": "accessory",
+          "ids": [
+            "gla-07"
+          ]
+        },
+        {
+          "title": "Colour editions (full sets of the same six members)",
+          "kind": "edition",
+          "ids": [
+            "gla-yellow",
+            "gla-transparent",
+            "gla-black"
+          ]
+        }
+      ],
+      "notes": [
+        "Limb layout is reversed vs G1 by default: Loader + Mixer are arms, Excavator + Bulldozer are legs (TFW2005 / reviews). GLA-07 adds the G1 limb layout.",
+        "Left/right side per member is only partly sourced (TFW prototype recap: Mixer = right arm, Excavator = right leg); other sides unconfirmed.",
+        "Official Weibo 21 Oct 2026: new enlarged head ships with GLA-07 and with the green/yellow/clear sets (late Nov); black-set owners get it free via sellers."
+      ]
+    },
+    {
+      "id": "dino-combiner",
+      "line": "giant-legion",
+      "nameEn": "Dinosaur combiner",
+      "nameZh": "恐龙组合金刚",
+      "homage": "Volcanicus-style (Dinobots) — collector shorthand",
+      "combinerId": "gla-dino",
+      "summary": "Full gray-model team and combined mode shown at Wonder Festival Shanghai (3–4 Oct 2026). T-rex is the torso. Shown under the Giant Legion banner on official placards.",
+      "groups": [
+        {
+          "title": "Combined team (members not yet listed individually)",
+          "kind": "combiner",
+          "ids": [
+            "gla-dino"
+          ]
+        }
+      ],
+      "notes": [
+        "Official member names, codes and limb roles are not published; only 三角龙 (Triceratops, ~26.5 cm) was readable on a placard.",
+        "Not part of the Heavy Builder set — retailers explicitly note the dinosaur in some photos is not included."
+      ]
+    },
+    {
+      "id": "te01-canfa",
+      "line": "titan-empyrean",
+      "nameEn": "TE01 Canfa War God",
+      "nameZh": "参伐战神",
+      "homage": "Bruticus (G1 Combaticons) — collector shorthand",
+      "combinerId": "te-01",
+      "summary": "Military-vehicle combiner, ~55 cm combined, members ~25–26 cm sold individually. TE01A jeep and TE01B tank revealed so far; combined mode not yet shown.",
+      "groups": [
+        {
+          "title": "Combined form (not yet revealed)",
+          "kind": "combiner",
+          "ids": [
+            "te-01"
+          ]
+        },
+        {
+          "title": "Members",
+          "kind": "member",
+          "ids": [
+            "te-01a",
+            "te-leishu"
+          ]
+        }
+      ],
+      "notes": [
+        "Member count is not official (a 5-member Bruticus layout is only an assumption).",
+        "TE01B 垒戍 = left leg (official Weibo 14 Oct 2026). TE01A 觜策's limb role is unpublished (described as squad command / staff officer)."
+      ]
+    },
+    {
+      "id": "micro-star",
+      "line": "micro-core",
+      "nameEn": "Micro-Star Engineering Team",
+      "nameZh": "微星工程队",
+      "homage": "Micro-scale construction combiner (Devastator-style)",
+      "combinerId": "micro-star",
+      "summary": "Small-scale assembly + triple-change combiner. Gray models in revision as of ChinaJoy 2026.",
+      "groups": [
+        {
+          "title": "Team",
+          "kind": "combiner",
+          "ids": [
+            "micro-star"
+          ]
+        }
+      ],
+      "notes": [
+        "Member count, names, size and price are all unpublished."
+      ]
+    }
+  ],
+  "topPicks": [
+    "gla-combined",
+    "gla-yellow",
+    "gla-transparent",
+    "gla-black",
+    "gla-07"
+  ],
+  "pricesChecked": "2026-10-24"
+};

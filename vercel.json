@@ -1,0 +1,11 @@
+{
+  "cleanUrls": false,
+  "headers": [
+    { "source": "/images/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/thumbs/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/css/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] },
+    { "source": "/js/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] },
+    { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }] },
+    { "source": "/", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }] }
+  ]
+}

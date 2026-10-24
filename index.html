@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Mecha Invasion Combiner Catalog · 机械入侵</title>
+  <meta name="description" content="Unofficial collector catalog of Mecha Invasion (机械入侵) third-party combiner figures: Giant Legion Heavy Builder, dinosaur combiner, Titan Empyrean TE01, Micro-Star.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/catalog.css?v=5">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="logo">MI</span><span class="brand-text">Mecha Invasion <em>机械入侵</em></span></a>
+    <nav class="topnav">
+      <a href="#/" data-nav="home">Catalog</a>
+      <a href="#/prices" data-nav="prices">Prices</a>
+      <a href="#/updates" data-nav="updates">Updates</a>
+    </nav>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <nav class="tabbar" aria-label="Sections">
+    <a href="#/" data-nav="home"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg>Catalog</a>
+    <a href="#/prices" data-nav="prices"><svg viewBox="0 0 24 24"><path d="M3 12l9-9h8v8l-9 9zM16 6.5a1.5 1.5 0 1 0 0 .01"/></svg>Prices</a>
+    <a href="#/updates" data-nav="updates"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg>Updates</a>
+  </nav>
+
+  <footer class="foot">
+    <p>Fan catalog. Not affiliated with Mecha Invasion, Hasbro or TakaraTomy. Images credited per shot and hosted locally.</p>
+    <p>Last updated <time id="updated"></time> · <a href="https://weibo.com/u/6612946062" rel="noopener">Official Weibo</a> · <a href="https://news.tfw2005.com/?s=Mecha+Invasion" rel="noopener">TFW2005</a> · <a href="UPDATE.md">How this updates</a></p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button type="button" class="lb-close" aria-label="Close">×</button>
+    <img id="lb-img" alt="">
+    <p id="lb-cap"></p>
+  </div>
+
+  <script src="data/figures.js?v=5"></script>
+  <script src="data/updates.js?v=5"></script>
+  <script src="js/catalog.js?v=5"></script>
+</body>
+</html>

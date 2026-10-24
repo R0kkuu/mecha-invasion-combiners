@@ -1,0 +1,6 @@
+.netlify/
+.vercel/
+.refresh-logs/
+.env*
+node_modules/
+*.token
