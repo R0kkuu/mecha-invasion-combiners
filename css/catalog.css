@@ -93,3 +93,4 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-.02em;marg
 .detail{grid-template-columns:minmax(0,1fr)}.detail>*{min-width:0}
 @media(min-width:860px){.detail{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}}
 .app,.grid,.proj{min-width:0}.grid>*,.proj>*{min-width:0}
+.article .back{display:flex;width:max-content}.article .kicker{display:block}
