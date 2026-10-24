@@ -194,7 +194,11 @@
   }
 
   function fetchJson(u) { return fetch(u, { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }); }
+  function loadScript(src) { return new Promise(function (ok) { var s = document.createElement("script"); s.src = src; s.onload = s.onerror = ok; document.head.appendChild(s); }); }
   Promise.all([fetchJson("data/figures.json"), fetchJson("data/updates.json")]).then(function (r) {
+    if (r[0] && r[1]) return r;
+    return Promise.all([loadScript("data/figures.js"), loadScript("data/updates.js")]).then(function () { return r; });
+  }).then(function (r) {
     S.data = r[0] || window.CATALOG_DATA; S.updates = r[1] || window.UPDATES_DATA || [];
     var t = document.getElementById("updated"); t.textContent = S.data.lastUpdatedLabel || S.data.lastUpdated; t.dateTime = S.data.lastUpdatedIso || "";
     document.getElementById("lightbox").addEventListener("click", function (e) { if (e.target.id === "lightbox" || e.target.classList.contains("lb-close")) closeLb(); });

@@ -64,6 +64,14 @@
     {
       "source": "/thumbs/:path*",
       "destination": "https://raw.githubusercontent.com/R0kkuu/mecha-invasion-combiners/main/thumbs/:path*"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "https://raw.githubusercontent.com/R0kkuu/mecha-invasion-combiners/main/data/:path*"
+    },
+    {
+      "source": "/UPDATE.md",
+      "destination": "https://raw.githubusercontent.com/R0kkuu/mecha-invasion-combiners/main/UPDATE.md"
     }
   ]
 }
