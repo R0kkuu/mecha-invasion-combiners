@@ -29,7 +29,7 @@
   function excerpt(t, n) { t = (t || "").trim().split(/\n\s*\n/)[0].replace(/\s+/g, " "); return t.length <= n ? t : t.slice(0, n).replace(/\s+\S*$/, "") + "…"; }
 
   function card(f) {
-    var st = f.stores && f.stores[0];
+    var st = (f.stores || []).filter(function (x) { return x.priceType !== "deposit" && x.price != null; })[0];
     return '<a class="card" href="#/figure/' + encodeURIComponent(f.id) + '"><div class="img">' + imgTag(hero(f), f.nameEn) + badge(f.status) + "</div>" +
       '<div class="body"><span class="code">' + esc(f.code && f.code !== "unknown" ? f.code : KIND[f.kind] || "") + (f.pack ? " · " + esc(f.pack) : "") + "</span>" +
       "<h3>" + esc(f.nameEn) + '</h3><span class="zh">' + esc(f.nameZh) + "</span>" +
@@ -85,66 +85,140 @@
     el.innerHTML = r.length ? r.map(card).join("") : '<p class="small">No matches.</p>';
   }
 
-  function project(id) {
-    var p = proj(id);
-    if (!p) return notFound();
-    var l = line(p.line);
-    var h = '<a class="back" href="#/">← Catalog</a><div class="crumbs">' + esc(l ? l.nameEn + " · " + l.nameZh : "") + "</div>" +
-      '<div class="ptitle"><h1>' + esc(p.nameEn) + '</h1><div class="zh">' + esc(p.nameZh) + " · homage: " + esc(p.homage) + '</div><p class="sum">' + esc(p.summary) + "</p></div>";
-    if (p.notes && p.notes.length) h += '<div class="callout"><h4>How it fits together · open questions</h4><ul>' + p.notes.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul></div>";
-    p.groups.forEach(function (g) {
-      h += '<div class="group-title">' + esc(g.title) + '</div><div class="grid">' + g.ids.map(fig).filter(Boolean).map(card).join("") + "</div>";
-    });
-    app.innerHTML = h;
-  }
   function lineView(id) {
     var l = line(id); if (!l) return home();
     var ps = (S.data.projects || []).filter(function (p) { return p.line === id; });
     app.innerHTML = '<a class="back" href="#/">← Catalog</a><div class="ptitle"><h1>' + esc(l.nameEn) + '</h1><div class="zh">' + esc(l.nameZh) + '</div><p class="sum">' + esc(l.blurb) + '</p></div><div class="proj">' + ps.map(pcard).join("") + "</div>";
   }
 
-  function kv(k, v) { if (v == null || v === "") v = "unknown"; if (Array.isArray(v)) v = v.join(", "); return "<div><dt>" + esc(k) + "</dt><dd>" + esc(v) + "</dd></div>"; }
+  // ---- v2 figure / project templates (data-driven; see UPDATE.md "Page data") ----
+  var SEC = { robot: "Robot mode", vehicle: "Vehicle mode", part: "Combined", combined: "Full combiner", other: "More images" };
+  var PILL = { released: ["ok", "Released"], preorder: ["pre", "Pre-order"], "gray-model": ["pro", "Prototype only"], prototype: ["pro", "Prototype only"], "in-development": ["unr", "In development"], announced: ["pre", "Announced"], unrevealed: ["unr", "Not yet revealed"] };
+  function pill(st) { var p = PILL[st] || ["unr", st]; return '<span class="fd-pill ' + p[0] + '">' + esc(p[1]) + "</span>"; }
+  function tba(v) { return v == null || v === "" || /^unknown$/i.test(String(v)) ? '<span class="fd-tba">TBA</span>' : esc(Array.isArray(v) ? v.join(", ") : v); }
+  function short(v) { if (v == null) return v; v = String(v); var i = v.search(/[.(;]/); return i > 12 ? v.slice(0, i).trim() : v; }
+  function ph(title, note, label) {
+    return '<div class="fd-card"><div class="fd-ph"><div class="q">?</div><b>' + esc(title) + "</b>" + (note ? "<span>" + esc(note) + "</span>" : "") + '</div><div class="t">' + esc(label || title) + "</div></div>";
+  }
+  function imCard(im, alt) {
+    return '<a class="fd-card" href="' + esc(im.file) + '" data-full="' + esc(im.file) + '" data-cap="' + esc((im.caption || "") + (im.credit ? " — " + im.credit : "")) + '">' + imgTag(im.file, alt) +
+      '<div class="t">' + esc(im.title || im.caption || "") + '</div><div class="s">' + esc(im.credit || "") + "</div></a>";
+  }
+  function secOf(im) { return im.section || "other"; }
+  function storeBlock(f) {
+    var rows = (f.stores || []).slice(0, 5).map(function (s) {
+      var price = s.priceType === "deposit" ? money(s) + " deposit" : s.priceType === "none" || s.price == null ? "Price not shown" : money(s);
+      var full = s.fullPrice != null ? '<span class="fd-sub">full ' + esc(money({ price: s.fullPrice, currency: s.currency })) + "</span>" : s.priceType === "deposit" ? '<span class="fd-sub">full price TBA</span>' : s.wasPrice != null ? '<span class="fd-sub"><s>' + esc(money({ price: s.wasPrice, currency: s.currency })) + "</s></span>" : "";
+      var src = s.priceSource === "search" ? '<span class="fd-sub">price from search snapshot</span>' : "";
+      return '<a class="fd-store" href="' + esc(s.url) + '" target="_blank" rel="noopener"><div><div class="n">' + esc(s.store) + (s.variant ? ' <span class="fd-sub">' + esc(s.variant) + "</span>" : "") + '</div><div class="a ' + (/stock|open|pre-?order|avail/i.test(s.availability || "") && !/out|sold/i.test(s.availability || "") ? "ok" : "no") + '">' + esc(s.availability || "") + "</div>" + src + '</div><div class="p">' + esc(price) + full + "</div></a>";
+    });
+    (f.storesNotListed || []).forEach(function (s) { if (rows.length < 7) rows.push('<div class="fd-store off"><div><div class="n">' + esc(s.store) + '</div><div class="a no">' + esc(s.note || "Not listed") + '</div></div><div class="p">—</div></div>'); });
+    if (!rows.length && !f.storesNote) return "";
+    var checked = (f.stores || []).concat(f.storesNotListed || []).map(function (s) { return s.checked; }).filter(Boolean).sort().pop();
+    return '<h2 class="fd-h">Where to buy' + (f.storesFor ? ' <span class="fd-sub">· ' + esc(f.storesFor) + "</span>" : "") + '</h2><div class="fd-box fd-stores">' + rows.join("") +
+      '<p class="fd-note">' + esc(f.storesNote || "") + (checked ? " Prices checked " + esc(checked) + "." : "") + "</p></div>";
+  }
+  function stats(rows) { return '<div class="fd-box"><dl class="fd-dl">' + rows.map(function (r) { return "<dt>" + esc(r[0]) + "</dt><dd>" + r[1] + "</dd>"; }).join("") + "</dl></div>"; }
+  function figStats(f, p) {
+    if (f.basics) return stats(f.basics.map(function (r) { return [r[0], tba(r[1])]; }));
+    var r = [];
+    if (p) r.push(["Project", esc(p.nameEn) + ' <span class="fd-sub">' + esc(p.nameZh) + "</span>"]);
+    if (f.kind !== "combiner") r.push(["Role", tba(f.role)]);
+    r.push(["Alt mode", tba(short(f.altMode))]);
+    if (f.pack) r.push(["Sold as", esc(f.pack)]);
+    r.push(["Height", f.kind === "combiner" ? tba(short(f.heightCombined)) : tba(short(f.heightRobot))]);
+    r.push(["Status", pill(f.status) + (f.releaseShort ? " " + esc(f.releaseShort) : "")]);
+    r.push(["Price", tba(f.priceShort || short(f.priceOfficial))]);
+    return stats(r);
+  }
+  function sectionHtml(title, items, sub) { return '<h2 class="fd-h">' + esc(title) + (sub ? ' <span class="fd-sub">· ' + esc(sub) + "</span>" : "") + '</h2><div class="fd-grid">' + items.join("") + "</div>"; }
+  function gallery(f, p) {
+    var ims = f.images || [], phs = f.placeholders || [], out = "";
+    var pre = f.status === "released" ? "No official image found" : "Not yet revealed";
+    var order = f.kind === "combiner" || f.kind === "edition" ? ["combined", "robot", "vehicle", "part", "other"] : ["robot", "vehicle", "part", "combined", "other"];
+    order.forEach(function (sec) {
+      var list = ims.filter(function (im) { return secOf(im) === sec; }).map(function (im) { return imCard(im, f.nameEn); });
+      if (sec === "combined" && f.kind !== "combiner" && f.kind !== "edition") {
+        [p && p.combinerId].concat(f.fullCombinerFrom || []).forEach(function (cid) {
+          var c = cid && cid !== f.id && fig(cid); if (!c) return;
+          (c.images || []).filter(function (im) { return secOf(im) === "combined"; }).slice(0, 3).forEach(function (im) { list.push(imCard(im, c.nameEn)); });
+        });
+      }
+      phs.filter(function (x) { return x.section === sec; }).forEach(function (x) { list.push(ph(x.title || pre, x.note, x.label)); });
+      var title = sec === "part" ? "Combined: " + (f.partLabel || "its part") : sec === "combined" && (f.kind === "combiner" || f.kind === "edition") ? "Combined mode" : SEC[sec];
+      if (!list.length) {
+        if (sec === "other") return;
+        if (sec === "part" && !f.partLabel) return;
+        if ((sec === "robot" || sec === "vehicle") && (f.kind === "combiner" || f.kind === "edition" || f.kind === "accessory")) return;
+        list.push(ph(pre, f.status === "released" ? "" : "No official photo published yet", title));
+      }
+      out += sectionHtml(title, list);
+    });
+    return out;
+  }
+  function heroOf(f) {
+    var ims = f.images || [];
+    var pick = ims.find(function (im) { return im.hero; }) || ims[0];
+    return pick;
+  }
   function figure(id) {
     var f = fig(id); if (!f) return notFound();
     var p = proj(f.project), comb = p && fig(p.combinerId);
+    if (f.kind === "combiner" && p) return project(p.id, true);
     var rel = [];
-    if (p) rel.push('<a href="#/project/' + encodeURIComponent(p.id) + '"><b>Project</b>' + esc(p.nameEn) + "</a>");
-    if (comb && comb.id !== f.id) rel.push('<a href="#/figure/' + encodeURIComponent(comb.id) + '"><b>Combines into</b>' + esc(comb.nameEn) + "</a>");
-    if (p) p.groups.forEach(function (g) {
-      g.ids.forEach(function (oid) {
-        if (oid === f.id || oid === p.combinerId) return;
-        var o = fig(oid); if (!o) return;
-        var lbl = f.kind === "member" && o.kind === "member" ? (o.pack && o.pack === f.pack ? "Pack-mate" : "Teammate") : KIND[o.kind];
-        rel.push('<a href="#/figure/' + encodeURIComponent(o.id) + '"><b>' + esc(lbl) + "</b>" + esc(o.code && o.code !== "unknown" && o.kind === "member" ? o.code + " " + o.nameEn : o.nameEn) + "</a>");
-      });
-    });
-    var stores = (f.stores || []).map(function (s) {
-      return '<a class="store" href="' + esc(s.url) + '" target="_blank" rel="noopener"><div><div class="n">' + esc(s.store) + '</div><div class="a">' + esc(s.availability) + " · checked " + esc(s.checked) + '</div></div><div class="p">' + esc(money(s)) + "</div></a>";
-    }).join("");
-    var gal = (f.images || []).map(function (im, i) {
-      return '<a href="' + esc(im.file) + '" data-full="' + esc(im.file) + '" data-cap="' + esc((im.caption || "") + " — " + (im.credit || "")) + '">' + imgTag(im.file, f.nameEn + " " + (i + 1)) + "</a>";
-    }).join("");
-    var h0 = hero(f);
+    if (p) rel.push('<a href="#/project/' + encodeURIComponent(p.id) + '"><b>Team</b>' + esc(p.nameEn) + "</a>");
+    if (p) p.groups.forEach(function (g) { g.ids.forEach(function (oid) {
+      if (oid === f.id || oid === p.combinerId) return; var o = fig(oid); if (!o || o.kind !== f.kind) return;
+      rel.push('<a href="#/figure/' + encodeURIComponent(o.id) + '"><b>' + esc(o.pack && o.pack === f.pack ? "Pack-mate" : (KIND[o.kind] || "")) + "</b>" + esc(o.nameEn) + "</a>");
+    }); });
+    var h0 = heroOf(f);
     app.innerHTML = '<a class="back" href="' + (p ? "#/project/" + encodeURIComponent(p.id) : "#/") + '">← ' + esc(p ? p.nameEn : "Catalog") + "</a>" +
-      '<div class="detail"><div><div class="dhero"' + (h0 ? ' data-full="' + esc(h0) + '" data-cap="' + esc(f.images[0].caption || "") + '"' : "") + ">" + imgTag(h0, f.nameEn, true) + "</div></div>" +
-      '<div class="dhead"><span class="code">' + esc(f.code) + " · " + esc(KIND[f.kind] || "") + "</span> " + badge(f.status) +
-      "<h1>" + esc(f.nameEn) + '</h1><div class="zh">' + esc(f.nameZh) + (f.aliases && f.aliases.length ? " · " + esc(f.aliases.join(" / ")) : "") + "</div>" +
-      (f.role ? '<span class="role" style="display:inline-block;margin-top:10px">' + esc(f.role) + "</span>" : "") +
-      (stores ? '<div class="stores">' + stores + "</div>" : "") +
-      '<div class="rel">' + rel.join("") + "</div>" +
-      '<dl class="kv">' + kv("Combiner role", f.combinerRole) + kv("Box / set", f.box) + kv("Homage", f.homage) + kv("Alt mode", f.altMode) +
-      kv("Robot height", f.heightRobot) + kv("Combined height", f.heightCombined) + kv("Materials", f.materials) + kv("LEDs", f.leds) +
-      kv("Announced", f.announced) + kv("Released", f.released) + kv("Official price", f.priceOfficial) + kv("Retail notes", f.priceRetail) + "</dl>" +
-      (f.notes ? '<p class="notes">' + esc(f.notes) + "</p>" : "") +
-      '<div class="sources">' + (f.sources || []).map(function (u) { return '<a href="' + esc(u) + '" rel="noopener" target="_blank">' + esc(u.replace(/^https?:\/\/(www\.)?/, "")) + "</a>"; }).join("") + "</div></div></div>" +
-      '<div class="group-title">Gallery · ' + (f.images || []).length + "</div>" + (gal ? '<div class="gal">' + gal + "</div>" : '<p class="small">No official images yet.</p>');
+      '<div class="fd-head"><span class="code">' + esc(f.code && f.code !== "unknown" ? f.code : "") + " · " + esc(KIND[f.kind] || "") + "</span><h1>" + esc(f.nameEn) + '</h1><div class="zh">' + esc(f.nameZh) + (f.homage ? " · " + esc(f.homage.split(" (")[0]) + " homage" : "") + "</div></div>" +
+      '<div class="fd-layout"><div class="fd-left">' +
+      (h0 ? '<div class="fd-hero" data-full="' + esc(h0.file) + '" data-cap="' + esc(h0.caption || "") + '">' + imgTag(h0.file, f.nameEn, true) + '</div><p class="fd-cap">' + esc((h0.title ? h0.title + " — " : "") + (h0.caption || "")) + "</p>"
+        : '<div class="fd-hero">' + ph(f.status === "released" ? "No official image yet" : "Not yet revealed", "No official photo published yet") + "</div>") +
+      "</div><div>" + figStats(f, p) + storeBlock(f) + '<div class="rel">' + rel.join("") + "</div></div></div>" +
+      gallery(f, p) +
+      '<details class="fd-src"><summary>Sources &amp; notes</summary>' + (f.notes ? "<p>" + esc(f.notes) + "</p>" : "") + '<div class="sources">' + (f.sources || []).map(function (u) { return '<a href="' + esc(u) + '" rel="noopener" target="_blank">' + esc(u.replace(/^https?:\/\/(www\.)?/, "")) + "</a>"; }).join("") + "</div></details>";
     bindLb();
+  }
+  function rosterCard(o) {
+    var h = heroOf(o);
+    return '<a class="fd-card" href="#/figure/' + encodeURIComponent(o.id) + '">' + (h ? imgTag(h.file, o.nameEn) : '<div class="fd-ph"><div class="q">?</div><b>No image yet</b></div>') +
+      '<div class="t">' + esc((o.code && o.code !== "unknown" && o.kind === "member" ? o.code + " " : "") + o.nameEn) + " " + esc(o.nameZh || "") + "</div>" +
+      '<div class="s">' + pill(o.status) + " " + esc(o.role || "Role TBA") + "</div></a>";
+  }
+  function project(id, fromFigure) {
+    var p = proj(id); if (!p) return notFound();
+    var l = line(p.line), c = fig(p.combinerId) || {};
+    var combImgs = (c.images || []).filter(function (im) { return secOf(im) === "combined"; });
+    var h0 = combImgs.find(function (im) { return im.hero; }) || combImgs[0];
+    var cph = p.combinedPlaceholder;
+    var hero = h0 ? '<div class="fd-hero" data-full="' + esc(h0.file) + '" data-cap="' + esc(h0.caption || "") + '">' + imgTag(h0.file, p.nameEn, true) + '</div><p class="fd-cap">' + esc(h0.caption || "") + "</p>"
+      : '<div class="fd-hero">' + ph((cph && cph.title) || "Combined mode not yet revealed", cph && cph.note) + "</div>";
+    var thumbs = (c.images || []).slice(0, 8).map(function (im) { return '<a href="' + esc(im.file) + '" data-full="' + esc(im.file) + '" data-cap="' + esc(im.caption || "") + '">' + imgTag(im.file, p.nameEn) + "</a>"; }).join("");
+    var rows = [["Line", esc(l ? l.nameEn + " · " + l.nameZh : "")], ["Homage", esc(p.homage)], ["Combined height", tba(short(c.heightCombined))], ["Member height", tba(short(c.heightRobot))]];
+    var mem = [].concat.apply([], p.groups.filter(function (g) { return g.kind === "member"; }).map(function (g) { return g.ids; })).map(fig).filter(Boolean);
+    rows.push(["Members", mem.length + " revealed" + (p.memberCount ? " of " + esc(p.memberCount) : (p.unrevealed && p.unrevealed.length ? " · total TBA" : ""))]);
+    rows.push(["Status", pill(c.status || "in-development") + (c.releaseShort ? " " + esc(c.releaseShort) : "")]);
+    rows.push(["Price", tba(c.priceShort || short(c.priceOfficial))]);
+    var h = '<a class="back" href="#/">← Catalog</a><div class="fd-head"><span class="code">' + esc(l ? l.nameEn : "") + "</span><h1>" + esc(p.nameEn) + '</h1><div class="zh">' + esc(p.nameZh) + "</div></div>" +
+      '<div class="fd-layout"><div class="fd-left">' + hero + (thumbs ? '<div class="fd-thumbs">' + thumbs + "</div>" : "") + "</div><div>" + stats(rows) + storeBlock(c) +
+      '<p class="fd-sum">' + esc(p.summary) + "</p></div></div>";
+    p.groups.forEach(function (g) {
+      if (g.kind === "combiner") return;
+      var items = g.ids.map(fig).filter(Boolean).map(rosterCard);
+      if (g.kind === "member") (p.unrevealed || []).forEach(function (u) { items.push(ph(u.title || "Not yet revealed", u.note, u.label || "Member TBA")); });
+      h += sectionHtml(g.kind === "member" ? "Member roster" : g.title, items, g.kind === "member" ? g.title : "");
+    });
+    if (p.notes && p.notes.length) h += '<details class="fd-src" open><summary>How it fits together · open questions</summary><ul>' + p.notes.map(function (n) { return "<li>" + esc(n) + "</li>"; }).join("") + "</ul></details>";
+    app.innerHTML = h; bindLb();
   }
 
   function prices() {
     var d = S.data;
     var rows = (d.topPicks || []).map(fig).filter(Boolean).map(function (f, i) {
-      var s = f.stores[0];
+      var s = (f.stores || []).filter(function (x) { return x.priceType !== "deposit" && x.price != null; })[0] || f.stores[0];
       return '<div class="prow"><a class="img" href="#/figure/' + encodeURIComponent(f.id) + '">' + imgTag(hero(f), f.nameEn) + "</a><div>" +
         '<span class="rank">#' + (i + 1) + " · " + esc(STATUS[f.status] || f.status) + '</span><h3><a href="#/figure/' + encodeURIComponent(f.id) + '">' + esc(f.nameEn) + "</a></h3>" +
         '<div class="p">' + esc(money(s)) + ' <span class="small">' + esc(s.currency) + "</span></div>" +

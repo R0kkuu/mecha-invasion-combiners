@@ -104,3 +104,19 @@ The first id must be the newest article. Alert links use `https://mecha-invasion
 Never commit tokens, `.env*`, `.netlify/`, `.vercel/` or the `/workspace/mi-review` quarantine folder. Keep unverified images out of this repo.
 
 Netlify (`https://mecha-invasion-combiners.netlify.app`) is legacy and kept up for now; it no longer needs to be redeployed on each refresh.
+
+## Figure page v2 fields (Oct 2026)
+
+Pages are fully data-driven; news needs only `data/figures.json` (+ regenerate `figures.js`) and images.
+
+**Images** — each entry may add `section`: `robot` | `vehicle` | `part` (shown as "Combined: <partLabel>") | `combined` (full combiner) | `other` ("More images"); optional `title` (card heading) and `hero: true` (main image). Official images only; keep `credit` + `sourceUrl`.
+
+**Figure fields**
+- `partLabel` — e.g. `"Devastator's arm"`; heads the part section.
+- `fullCombinerFrom` — figure ids whose `combined` images also show in "Full combiner".
+- `placeholders` — `[{section, title, note, label}]`; striped card shown in that section. Use titles "Not yet revealed", "Prototype only" or "TBA".
+- `stores` — up to 5: `{store, url, price, currency, priceType: full|deposit|none, fullPrice, wasPrice, variant, availability, checked: YYYY-MM-DD, priceSource: live|search, urlNote}`. `live` = read on the product page; `search` = seen only in a search snapshot (shown as such). Never invent a price; use `price: null, priceType: "none"` if unseen. TFSafari and ShowZ should be included when they list the item.
+- `storesNotListed` — `[{store, note, checked}]`; `storesNote`, `storesFor` (what the listing actually sells, e.g. a two-pack).
+- Display overrides: `basics` (`[[label, value], ...]`), `releaseShort`, `priceShort`.
+
+**Project fields** — `unrevealed` `[{title, note, label}]` (placeholder roster cards), `combinedPlaceholder` `{title, note}`, `memberCount`.
