@@ -120,3 +120,6 @@ Pages are fully data-driven; news needs only `data/figures.json` (+ regenerate `
 - Display overrides: `basics` (`[[label, value], ...]`), `releaseShort`, `priceShort`.
 
 **Project fields** — `unrevealed` `[{title, note, label}]` (placeholder roster cards), `combinedPlaceholder` `{title, note}`, `memberCount`.
+
+
+_2026-10-26: Auto-deploy via the Vercel GitHub app is active (pushes to main deploy to production)._
