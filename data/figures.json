@@ -7,9 +7,9 @@
     "weibo": "https://weibo.com/u/6612946062",
     "notes": "Third-party transforming combiner figures. Not affiliated with Hasbro or TakaraTomy."
   },
-  "lastUpdated": "2026-10-27",
-  "lastUpdatedLabel": "27 Oct 2026, 5:00 AM AEDT",
-  "lastUpdatedIso": "2026-10-27T05:00:00+11:00",
+  "lastUpdated": "2026-10-28",
+  "lastUpdatedLabel": "28 Oct 2026, 5:00 AM AEDT",
+  "lastUpdatedIso": "2026-10-28T05:00:00+11:00",
   "disclaimer": "Unofficial fan catalog. Homage names are collector shorthand, not licensed character names. Specs are taken from official Weibo copy, TFW2005 recaps, Tformers translations, and retailer pages that reproduce factory text. Unknowns are marked unknown — nothing here is invented.",
   "lines": [
     {
@@ -225,7 +225,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -428,7 +428,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -583,7 +583,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -733,7 +733,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -884,7 +884,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -1024,7 +1024,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -1491,7 +1491,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · full price TBA",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         }
       ],
@@ -1684,7 +1684,7 @@
           "price": 300.0,
           "currency": "USD",
           "availability": "Preorder open",
-          "checked": "2026-10-27"
+          "checked": "2026-10-28"
         },
         {
           "store": "TFSafari",
@@ -1693,7 +1693,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "live"
         },
         {
@@ -1703,7 +1703,18 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
+          "priceSource": "live"
+        },
+        {
+          "store": "SNN Collections",
+          "url": "https://snncollections.com/products/mecha-invasion-devastator-set-of-7-black-version",
+          "price": 5.0,
+          "currency": "USD",
+          "priceType": "deposit",
+          "fullPrice": null,
+          "availability": "Pre-order · final price TBD",
+          "checked": "2026-10-28",
           "priceSource": "live"
         }
       ]
@@ -1924,7 +1935,7 @@
           "price": 105.0,
           "currency": "USD",
           "availability": "Preorder open · est. Nov 2026",
-          "checked": "2026-10-27"
+          "checked": "2026-10-28"
         },
         {
           "store": "TFSafari",
@@ -1934,7 +1945,7 @@
           "priceType": "deposit",
           "fullPrice": 89.99,
           "availability": "Pre-order",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "live",
           "urlNote": "Listed as GLA upgrade parts (green) / trailer truck"
         },
@@ -1945,7 +1956,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · late Nov 2026",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search",
           "fullPrice": 89.99
         },
@@ -1956,7 +1967,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Pre-order · Nov 2026",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search",
           "wasPrice": 119.99
         },
@@ -2246,7 +2257,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · full price TBA",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "live"
         },
         {
@@ -2256,7 +2267,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · Q4 2026",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         },
         {
@@ -2560,7 +2571,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · full price TBA",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "live"
         },
         {
@@ -2570,7 +2581,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · Q1 2027",
-          "checked": "2026-10-27",
+          "checked": "2026-10-28",
           "priceSource": "search"
         }
       ],
@@ -2804,5 +2815,5 @@
     "gla-black",
     "gla-07"
   ],
-  "pricesChecked": "2026-10-27"
+  "pricesChecked": "2026-10-28"
 }
