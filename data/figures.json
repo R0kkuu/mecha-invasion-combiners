@@ -225,7 +225,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-28",
+          "checked": "2026-10-29",
           "priceSource": "search"
         },
         {
@@ -428,7 +428,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-28",
+          "checked": "2026-10-29",
           "priceSource": "search"
         },
         {
@@ -583,7 +583,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-28",
+          "checked": "2026-10-29",
           "priceSource": "search"
         },
         {
@@ -733,7 +733,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-28",
+          "checked": "2026-10-29",
           "priceSource": "search"
         },
         {
@@ -884,7 +884,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-28",
+          "checked": "2026-10-29",
           "priceSource": "search"
         },
         {
@@ -1024,7 +1024,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Listed",
-          "checked": "2026-10-28",
+          "checked": "2026-10-29",
           "priceSource": "search"
         },
         {
@@ -1487,12 +1487,13 @@
         {
           "store": "ShowZ",
           "url": "https://www.showzstore.com/mecha-invasion-devastator-set-of-6-transparent-version_p7916.html",
-          "price": 2.0,
+          "price": 249.99,
           "currency": "USD",
-          "priceType": "deposit",
-          "availability": "Pre-order · full price TBA",
-          "checked": "2026-10-28",
-          "priceSource": "search"
+          "priceType": "full",
+          "availability": "Coming soon",
+          "checked": "2026-10-29",
+          "priceSource": "search",
+          "fullPrice": null
         }
       ],
       "storesNotListed": [
