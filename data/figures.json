@@ -7,9 +7,9 @@
     "weibo": "https://weibo.com/u/6612946062",
     "notes": "Third-party transforming combiner figures. Not affiliated with Hasbro or TakaraTomy."
   },
-  "lastUpdated": "2026-10-29",
-  "lastUpdatedLabel": "29 Oct 2026, 5:00 AM AEDT",
-  "lastUpdatedIso": "2026-10-29T05:00:00+11:00",
+  "lastUpdated": "2026-10-30",
+  "lastUpdatedLabel": "30 Oct 2026, 5:00 AM AEDT",
+  "lastUpdatedIso": "2026-10-30T05:00:00+11:00",
   "disclaimer": "Unofficial fan catalog. Homage names are collector shorthand, not licensed character names. Specs are taken from official Weibo copy, TFW2005 recaps, Tformers translations, and retailer pages that reproduce factory text. Unknowns are marked unknown — nothing here is invented.",
   "lines": [
     {
@@ -2586,6 +2586,16 @@
           "availability": "Pre-order · Q1 2027",
           "checked": "2026-10-29",
           "priceSource": "live"
+        },
+        {
+          "store": "TF-Direct",
+          "url": "https://www.tf-direct.com/mi-te01b-p6020.html",
+          "price": 1.0,
+          "currency": "USD",
+          "availability": "Pre-order · Q1 2027 (deposit)",
+          "checked": "2026-10-30",
+          "priceType": "deposit",
+          "priceSource": "live"
         }
       ],
       "storesNotListed": [
@@ -2818,5 +2828,5 @@
     "gla-black",
     "gla-07"
   ],
-  "pricesChecked": "2026-10-29"
+  "pricesChecked": "2026-10-30"
 }
