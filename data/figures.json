@@ -7,9 +7,9 @@
     "weibo": "https://weibo.com/u/6612946062",
     "notes": "Third-party transforming combiner figures. Not affiliated with Hasbro or TakaraTomy."
   },
-  "lastUpdated": "2026-11-05",
-  "lastUpdatedLabel": "5 Nov 2026, 6:07 PM AEDT",
-  "lastUpdatedIso": "2026-11-05T18:07:00+11:00",
+  "lastUpdated": "2026-11-10",
+  "lastUpdatedLabel": "10 Nov 2026, 9:41 AM AEDT",
+  "lastUpdatedIso": "2026-11-10T09:41:34+11:00",
   "disclaimer": "Unofficial fan catalog. Homage names are collector shorthand, not licensed character names. Specs are taken from official Weibo copy, TFW2005 recaps, Tformers translations, and retailer pages that reproduce factory text. Unknowns are marked unknown — nothing here is invented.",
   "lines": [
     {
@@ -1200,7 +1200,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Sold out",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live",
           "variant": "complete set"
         }
@@ -1333,8 +1333,8 @@
           "price": 244.99,
           "currency": "USD",
           "priceType": "full",
-          "availability": "Pre-order",
-          "checked": "2026-10-29",
+          "availability": "In stock",
+          "checked": "2026-11-10",
           "priceSource": "live",
           "wasPrice": 249.99
         },
@@ -1345,7 +1345,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Sold out",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live"
         }
       ]
@@ -1482,7 +1482,8 @@
           "price": 275.0,
           "currency": "USD",
           "availability": "Preorder closed / sold out",
-          "checked": "2026-10-29"
+          "checked": "2026-11-10",
+          "priceSource": "live"
         },
         {
           "store": "ShowZ",
@@ -1490,10 +1491,20 @@
           "price": 249.99,
           "currency": "USD",
           "priceType": "full",
-          "availability": "Coming soon",
-          "checked": "2026-10-29",
-          "priceSource": "search",
+          "availability": "In stock",
+          "checked": "2026-11-10",
+          "priceSource": "live",
           "fullPrice": null
+        },
+        {
+          "store": "BigBadToyStore",
+          "url": "https://www.bigbadtoystore.com/product/giant-legion-gla-01-06c-titan-creation-clear-ver-figure-set-191700",
+          "price": 294.99,
+          "currency": "USD",
+          "availability": "Preorder · est. Nov 2026",
+          "checked": "2026-11-10",
+          "priceType": "full",
+          "priceSource": "search"
         }
       ],
       "storesNotListed": [
@@ -1685,7 +1696,7 @@
           "price": 365.0,
           "currency": "USD",
           "availability": "Out of stock",
-          "checked": "2026-11-05",
+          "checked": "2026-11-10",
           "priceType": "full",
           "priceSource": "live"
         },
@@ -1696,7 +1707,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-11-05",
+          "checked": "2026-11-10",
           "priceSource": "live"
         },
         {
@@ -1706,7 +1717,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live"
         },
         {
@@ -1716,18 +1727,18 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live"
         },
         {
           "store": "SNN Collections",
           "url": "https://snncollections.com/products/mecha-invasion-devastator-set-of-7-black-version",
-          "price": 5.0,
+          "price": 380.0,
           "currency": "USD",
-          "priceType": "deposit",
+          "priceType": "full",
           "fullPrice": null,
-          "availability": "Sold out (deposit listing)",
-          "checked": "2026-10-29",
+          "availability": "In stock",
+          "checked": "2026-11-10",
           "priceSource": "live"
         }
       ]
@@ -1948,7 +1959,8 @@
           "price": 105.0,
           "currency": "USD",
           "availability": "Preorder open · est. Nov 2026",
-          "checked": "2026-10-29"
+          "checked": "2026-11-10",
+          "priceSource": "live"
         },
         {
           "store": "TFSafari",
@@ -1958,7 +1970,7 @@
           "priceType": "deposit",
           "fullPrice": 89.99,
           "availability": "Pre-order",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live",
           "urlNote": "Listed as GLA upgrade parts (green) / trailer truck"
         },
@@ -1969,30 +1981,31 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · late Nov 2026",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live",
           "fullPrice": 89.99
         },
         {
           "store": "Arcane Collect",
-          "url": "https://arcanecollect.com/product/mecha-invasion-gla-07-giant-legion-devastator-d-set-upgrade-kit-green-version/",
+          "url": "https://arcanecollect.com/product/mecha-invasion-gla-07-giant-legion-devastator-d-set-upgrade-kit/",
           "price": 86.95,
           "currency": "USD",
           "priceType": "full",
-          "availability": "Pre-order · Nov 2026",
-          "checked": "2026-10-29",
-          "priceSource": "search",
+          "availability": "In stock",
+          "checked": "2026-11-10",
+          "priceSource": "live",
           "wasPrice": 119.99
         },
         {
-          "store": "TF-Direct",
-          "url": "https://www.tf-direct.com/gla-07-p5727.html",
-          "price": 1.0,
+          "store": "SNN Collections",
+          "url": "https://snncollections.com/products/mecha-invasion-gla-07-upgrade-kit-giant-legion-heavy-builder-devastator",
+          "price": 105.0,
           "currency": "USD",
-          "priceType": "deposit",
-          "availability": "Pre-order",
-          "checked": "2026-10-24",
-          "priceSource": "search"
+          "priceType": "full",
+          "availability": "In stock (Green / Yellow variants)",
+          "checked": "2026-11-10",
+          "priceSource": "live",
+          "variant": "Green or Yellow"
         }
       ],
       "partLabel": "Upgrade parts on Devastator"
@@ -2270,7 +2283,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · full price TBA",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live"
         },
         {
@@ -2290,8 +2303,8 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order",
-          "checked": "2026-10-24",
-          "priceSource": "search"
+          "checked": "2026-11-10",
+          "priceSource": "live"
         },
         {
           "store": "TF Upgrader (MY)",
@@ -2584,7 +2597,7 @@
           "currency": "USD",
           "priceType": "deposit",
           "availability": "Pre-order · full price TBA",
-          "checked": "2026-10-29",
+          "checked": "2026-11-10",
           "priceSource": "live"
         },
         {
@@ -2603,7 +2616,7 @@
           "price": 1.0,
           "currency": "USD",
           "availability": "Pre-order · Q1 2027 (deposit)",
-          "checked": "2026-10-30",
+          "checked": "2026-11-10",
           "priceType": "deposit",
           "priceSource": "live"
         }
@@ -2613,11 +2626,6 @@
           "store": "Tokullectibles",
           "note": "Not listed",
           "checked": "2026-10-27"
-        },
-        {
-          "store": "TF-Direct",
-          "note": "Not found (TE01A only)",
-          "checked": "2026-10-24"
         }
       ],
       "storesNote": "Full price not announced by Mecha Invasion (价格待公布).",
@@ -2838,5 +2846,5 @@
     "gla-black",
     "gla-07"
   ],
-  "pricesChecked": "2026-11-05"
+  "pricesChecked": "2026-11-10"
 }
