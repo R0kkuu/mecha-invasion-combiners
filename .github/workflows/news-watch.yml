@@ -1,0 +1,67 @@
+name: news-watch
+
+# Polls cheap Mecha Invasion feeds and calls the Grok Bot routine webhook only
+# when something new matches. Seen-state lives in the Actions cache (never
+# committed to main, so no Vercel deploys).
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      reseed:
+        description: "Rebuild seen-state without calling the webhook"
+        type: boolean
+        default: false
+      test_ping:
+        description: "Send a test payload ({test:true, items:[]}) even with no news"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: write
+
+concurrency:
+  group: news-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: tools/news-watch
+
+      - name: Restore seen-state
+        uses: actions/cache/restore@v4
+        with:
+          path: .news-watch-state
+          key: news-watch-state-${{ github.run_id }}
+          restore-keys: news-watch-state-
+
+      - name: Check feeds and notify
+        env:
+          MI_WEBHOOK_URL: ${{ secrets.MI_WEBHOOK_URL }}
+          MI_WEBHOOK_KEY: ${{ secrets.MI_WEBHOOK_KEY }}
+          MI_WEBHOOK_KEY_HEADER: ${{ vars.MI_WEBHOOK_KEY_HEADER }}
+          MI_STATE_FILE: .news-watch-state/seen.json
+          MI_RESEED: ${{ inputs.reseed && '1' || '0' }}
+          MI_TEST_PING: ${{ inputs.test_ping && '1' || '0' }}
+        run: python3 tools/news-watch/watch.py
+
+      - name: Save seen-state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .news-watch-state
+          key: news-watch-state-${{ github.run_id }}
+
+      - name: Prune old state caches
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh cache list -R "$GITHUB_REPOSITORY" --key news-watch-state- --sort created_at --order desc --limit 50 --json id --jq '.[5:][].id' \
+            | xargs -r -n1 gh cache delete -R "$GITHUB_REPOSITORY" || true

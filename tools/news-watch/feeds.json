@@ -1,0 +1,71 @@
+{
+  "_note": "Feeds polled by .github/workflows/news-watch.yml. Never add news.tfw2005.com, tfsource.com or weibo.com directly (cut off / search-only). Weibo is read only through public RSSHub mirrors, tried in order until one answers.",
+  "maxAgeDays": 30,
+  "maxItems": 20,
+  "keywords": [
+    "机械入侵", "機械入侵", "mecha invasion", "mecha_invasion", "mechainvasion",
+    "giant legion", "巨型军团", "巨型軍團",
+    "titan empyrean", "泰坦星寰", "参伐战神", "參伐戰神", "canfa",
+    "恐龙组合金刚", "恐龍組合金剛", "重型建造者"
+  ],
+  "keywordRegex": ["\\bGLA-?0\\d", "\\bTE-?01[AB]?\\b"],
+  "feeds": [
+    {
+      "id": "weibo-official",
+      "name": "Mecha Invasion official Weibo (via RSSHub)",
+      "matchAll": true,
+      "urls": [
+        "https://rsshub.woodland.cafe/weibo/user/6612946062",
+        "https://rsshub.app/weibo/user/6612946062",
+        "https://rsshub.rssforever.com/weibo/user/6612946062",
+        "https://rsshub.liumingye.cn/weibo/user/6612946062",
+        "https://hub.slarker.me/weibo/user/6612946062"
+      ]
+    },
+    {
+      "id": "gnews-en-mi",
+      "name": "Google News: \"Mecha Invasion\"",
+      "urls": ["https://news.google.com/rss/search?q=%22Mecha+Invasion%22&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "id": "gnews-en-lines",
+      "name": "Google News: \"Giant Legion\" OR \"Titan Empyrean\"",
+      "urls": ["https://news.google.com/rss/search?q=%22Giant+Legion%22+OR+%22Titan+Empyrean%22&hl=en-US&gl=US&ceid=US:en"]
+    },
+    {
+      "id": "gnews-zh-cn",
+      "name": "Google News: 机械入侵 (zh-CN)",
+      "urls": ["https://news.google.com/rss/search?q=%E6%9C%BA%E6%A2%B0%E5%85%A5%E4%BE%B5&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"]
+    },
+    {
+      "id": "gnews-zh-tw",
+      "name": "Google News: 機械入侵 (zh-TW)",
+      "urls": ["https://news.google.com/rss/search?q=%E6%A9%9F%E6%A2%B0%E5%85%A5%E4%BE%B5&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"]
+    },
+    {
+      "id": "tformers",
+      "name": "Tformers news",
+      "urls": ["https://tformers.com/backend.php"]
+    },
+    {
+      "id": "metalrobot",
+      "name": "Metalrobot.it",
+      "urls": ["https://www.metalrobot.it/feed/"]
+    },
+    {
+      "id": "tfw-3p-discussion",
+      "name": "TFW2005 boards: 3rd Party Discussion",
+      "urls": ["https://www.tfw2005.com/boards/forums/transformers-3rd-party-discussion.442/index.rss"]
+    },
+    {
+      "id": "tfw-3p-reviews",
+      "name": "TFW2005 boards: 3rd Party Reviews",
+      "urls": ["https://www.tfw2005.com/boards/forums/transformers-3rd-party-reviews.443/index.rss"]
+    },
+    {
+      "id": "tfw-news-rumors",
+      "name": "TFW2005 boards: News and Rumors",
+      "urls": ["https://www.tfw2005.com/boards/forums/transformers-news-and-rumors.318/index.rss"]
+    }
+  ]
+}
