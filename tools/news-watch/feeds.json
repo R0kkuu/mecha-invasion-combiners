@@ -1,7 +1,8 @@
 {
   "_note": "Feeds polled by .github/workflows/news-watch.yml. Never add news.tfw2005.com, tfsource.com or weibo.com directly (cut off / search-only). Weibo is read only through public RSSHub mirrors, tried in order until one answers.",
-  "maxAgeDays": 30,
+  "maxAgeDays": 10,
   "maxItems": 20,
+  "threadFeeds": ["tfw-3p-discussion", "tfw-3p-reviews", "tfw-news-rumors"],
   "keywords": [
     "机械入侵", "機械入侵", "mecha invasion", "mecha_invasion", "mechainvasion",
     "giant legion", "巨型军团", "巨型軍團",
