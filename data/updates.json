@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-11-26-gla-07y-07c",
+    "date": "2026-11-26",
+    "dateLabel": "26 Nov 2026",
+    "title": "GLA-07Y (yellow) and GLA-07C (clear) upgrade kits listed",
+    "summary": "Retailers have listed two new colour versions of the Giant Legion D-set upgrade kit: GLA-07Y (yellow, for the Yellow limited edition) and GLA-07C (clear / colour-transparent, for the Clear edition). ShowZ has pages for both, and Arcane Collect and TFSafari list the yellow one.\n\nPer retailer copy the kit raises the combiner to about 45–50 cm and adds a changeable face, a weapon barrel, articulated hands for all six members and LED lights, with the parts forming a truck. Arcane Collect shows USD 86.95 with estimated shipping in December 2026; TFSafari shows USD 89.99 full price (USD 5 deposit option) for the yellow kit, with release Dec 2026 to Jan.\n\nArcane Collect also has a page titled GLA-07T (crystal version), but its images are labelled GLA-07C, so it appears to be the same clear kit under a different label. No separate official GLA-07T has been confirmed.",
+    "figureIds": [
+      "gla-07y",
+      "gla-07c",
+      "gla-07"
+    ],
+    "sources": [
+      "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+      "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+      "https://www.showzstore.com/mecha-invasion-gla-07y-upgrade-kits-for-giant-legion-heavy-builder-devastator-yellow-version_p8219.html",
+      "https://www.showzstore.com/mecha-invasion-gla-07c-upgrade-kits-for-giant-legion-heavy-builder-devastator-clear-version_p8218.html",
+      "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla-07y-gla07y-giant-legion-heavy-builder-combiner-upgrade-parts-yellow"
+    ],
+    "hero": "images/gla-07y/02.jpg"
+  },
+  {
     "id": "2026-10-21-gla-black-free-head",
     "date": "2026-10-21",
     "dateLabel": "21 Oct 2026",

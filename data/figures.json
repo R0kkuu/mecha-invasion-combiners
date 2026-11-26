@@ -7,9 +7,9 @@
     "weibo": "https://weibo.com/u/6612946062",
     "notes": "Third-party transforming combiner figures. Not affiliated with Hasbro or TakaraTomy."
   },
-  "lastUpdated": "2026-11-10",
-  "lastUpdatedLabel": "10 Nov 2026, 9:41 AM AEDT",
-  "lastUpdatedIso": "2026-11-10T09:41:34+11:00",
+  "lastUpdated": "2026-11-26",
+  "lastUpdatedLabel": "26 Nov 2026, 5:52 PM AEDT",
+  "lastUpdatedIso": "2026-11-26T17:52:47+11:00",
   "disclaimer": "Unofficial fan catalog. Homage names are collector shorthand, not licensed character names. Specs are taken from official Weibo copy, TFW2005 recaps, Tformers translations, and retailer pages that reproduce factory text. Unknowns are marked unknown — nothing here is invented.",
   "lines": [
     {
@@ -1200,7 +1200,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Sold out",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live",
           "variant": "complete set"
         }
@@ -1330,11 +1330,11 @@
         {
           "store": "TFSafari",
           "url": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla01-06y-gla-01-06y-construct-titan-constructors-devastator-combiner-6-in-1-set",
-          "price": 244.99,
+          "price": 249.99,
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live",
           "wasPrice": 249.99
         },
@@ -1345,7 +1345,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "Sold out",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live"
         }
       ]
@@ -1481,8 +1481,8 @@
           "url": "https://tokullectibles.com/products/mecha-invasion-giant-legion-gla-01-06c-titan-crystal-version",
           "price": 275.0,
           "currency": "USD",
-          "availability": "Preorder closed / sold out",
-          "checked": "2026-11-10",
+          "availability": "In stock",
+          "checked": "2026-11-26",
           "priceSource": "live"
         },
         {
@@ -1696,7 +1696,7 @@
           "price": 365.0,
           "currency": "USD",
           "availability": "Out of stock",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceType": "full",
           "priceSource": "live"
         },
@@ -1707,7 +1707,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live"
         },
         {
@@ -1717,7 +1717,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live"
         },
         {
@@ -1733,12 +1733,12 @@
         {
           "store": "SNN Collections",
           "url": "https://snncollections.com/products/mecha-invasion-devastator-set-of-7-black-version",
-          "price": 380.0,
+          "price": 350.0,
           "currency": "USD",
           "priceType": "full",
           "fullPrice": null,
           "availability": "In stock",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live"
         }
       ]
@@ -1959,20 +1959,19 @@
           "price": 105.0,
           "currency": "USD",
           "availability": "Preorder open · est. Nov 2026",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live"
         },
         {
           "store": "TFSafari",
           "url": "https://www.tfsafari.com/products/mecha-invasion-gla-giant-legion-heavy-builder-combiner-upgrade-parts-green",
-          "price": 2.0,
+          "price": 89.99,
           "currency": "USD",
-          "priceType": "deposit",
-          "fullPrice": 89.99,
-          "availability": "Pre-order",
-          "checked": "2026-11-10",
+          "priceType": "full",
+          "availability": "In stock",
+          "checked": "2026-11-26",
           "priceSource": "live",
-          "urlNote": "Listed as GLA upgrade parts (green) / trailer truck"
+          "urlNote": "Listed as GLA upgrade parts (green) / trailer truck; was a $2 deposit on 2026-11-10"
         },
         {
           "store": "ShowZ",
@@ -1992,7 +1991,7 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live",
           "wasPrice": 119.99
         },
@@ -2003,12 +2002,236 @@
           "currency": "USD",
           "priceType": "full",
           "availability": "In stock (Green / Yellow variants)",
-          "checked": "2026-11-10",
+          "checked": "2026-11-26",
           "priceSource": "live",
           "variant": "Green or Yellow"
         }
       ],
       "partLabel": "Upgrade parts on Devastator"
+    },
+    {
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / 重型建造者",
+      "box": "GLA-07 family upgrade kit (the six GLA-01–06 members are not included)",
+      "altMode": "Kit parts transform / store as a truck (retailer copy: trailer truck / support truck mode)",
+      "heightRobot": null,
+      "heightCombined": "TFSafari copy: kit raises the combiner to about 45–50 cm",
+      "materials": "ABS plastic (TFSafari listing)",
+      "leds": "LED lights for the barrel / truck lights (TFSafari listing)",
+      "status": "preorder",
+      "announced": "Retail listings appeared Nov 2026 (TFSafari page created 13 Nov 2026).",
+      "released": "Not yet. Arcane Collect lists estimated shipping December 2026; TFSafari copy says Dec 2026 to Jan.",
+      "priceOfficial": "unknown",
+      "project": "heavy-builder",
+      "kind": "edition",
+      "partLabel": "Upgrade parts on Devastator",
+      "id": "gla-07y",
+      "code": "GLA-07Y",
+      "nameEn": "Giant Legion upgrade kit, Yellow version (D set)",
+      "nameZh": "巨型军团 D套升级包 黄色版",
+      "aliases": [
+        "GLA07Y",
+        "Yellow D set",
+        "Yellow upgrade kit"
+      ],
+      "homage": "Yellow G2-style Devastator upgrade kit; G1 limb layout + height boost + truck",
+      "combinerRole": "Upgrade kit for the Yellow limited edition (GLA-01–06Y): changeable combined face, weapon barrel, changeable articulated hands for all six members, truck parts that become combiner parts (TFSafari / Arcane Collect copy).",
+      "priceRetail": "Arcane Collect USD 86.95; TFSafari USD 89.99 full price (USD 5 deposit option), seen 26 Nov 2026.",
+      "notes": "Yellow counterpart of GLA-07. Official studio images are hosted on the Arcane Collect and ShowZ pages; the ShowZ page was behind a Cloudflare check on 26 Nov 2026, so no ShowZ price is recorded. Mainland/HK pricing and the official Weibo post were not re-checked here.",
+      "sources": [
+        "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+        "https://www.showzstore.com/mecha-invasion-gla-07y-upgrade-kits-for-giant-legion-heavy-builder-devastator-yellow-version_p8219.html",
+        "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla-07y-gla07y-giant-legion-heavy-builder-combiner-upgrade-parts-yellow"
+      ],
+      "images": [
+        {
+          "file": "images/gla-07y/01.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+          "caption": "Yellow upgrade kit parts on sprues (Arcane Collect studio image).",
+          "kind": "official",
+          "section": "other"
+        },
+        {
+          "file": "images/gla-07y/02.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+          "caption": "Yellow Devastator with the upgrade kit.",
+          "kind": "official",
+          "section": "combined"
+        },
+        {
+          "file": "images/gla-07y/03.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+          "caption": "Yellow Devastator with the upgrade kit, side view.",
+          "kind": "official",
+          "section": "combined"
+        },
+        {
+          "file": "images/gla-07y/04.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+          "caption": "Upgrade parts close-up on the combiner.",
+          "kind": "official",
+          "section": "combined"
+        },
+        {
+          "file": "images/gla-07y/05.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+          "caption": "Yellow Devastator with the upgrade kit and weapon.",
+          "kind": "official",
+          "section": "combined"
+        }
+      ],
+      "role": "Upgrade kit · yellow, for GLA-01–06Y",
+      "stores": [
+        {
+          "store": "ShowZ",
+          "url": "https://www.showzstore.com/mecha-invasion-gla-07y-upgrade-kits-for-giant-legion-heavy-builder-devastator-yellow-version_p8219.html",
+          "price": null,
+          "currency": "USD",
+          "priceType": "none",
+          "availability": "Listed (price not read: page blocked by Cloudflare check)",
+          "checked": "2026-11-26",
+          "priceSource": "search"
+        },
+        {
+          "store": "TFSafari",
+          "url": "https://www.tfsafari.com/products/pre-order-mecha-invasion-gla-07y-gla07y-giant-legion-heavy-builder-combiner-upgrade-parts-yellow",
+          "price": 5.0,
+          "currency": "USD",
+          "priceType": "deposit",
+          "fullPrice": 89.99,
+          "availability": "Pre-order · Dec 2026–Jan",
+          "checked": "2026-11-26",
+          "priceSource": "live",
+          "variant": "Deposit only"
+        },
+        {
+          "store": "Arcane Collect",
+          "url": "https://arcanecollect.com/product/mecha-invasion-gla-07y-giant-legion-devastator-d-set-upgrade-kit-yellow-version/",
+          "price": 86.95,
+          "currency": "USD",
+          "priceType": "full",
+          "availability": "Listed in stock · est. ship Dec 2026",
+          "checked": "2026-11-26",
+          "priceSource": "live"
+        }
+      ],
+      "storesNotListed": []
+    },
+    {
+      "line": "giant-legion",
+      "lineNameEn": "Giant Legion",
+      "lineNameZh": "巨型军团",
+      "squad": "Heavy Builder / 重型建造者",
+      "box": "GLA-07 family upgrade kit (the six GLA-01–06 members are not included)",
+      "altMode": "Kit parts transform / store as a truck (retailer copy: trailer truck / support truck mode)",
+      "heightRobot": null,
+      "heightCombined": "TFSafari copy: kit raises the combiner to about 45–50 cm",
+      "materials": "ABS plastic (TFSafari listing)",
+      "leds": "LED lights for the barrel / truck lights (TFSafari listing)",
+      "status": "preorder",
+      "announced": "Retail listings appeared Nov 2026 (TFSafari page created 13 Nov 2026).",
+      "released": "Not yet. Arcane Collect lists estimated shipping December 2026; TFSafari copy says Dec 2026 to Jan.",
+      "priceOfficial": "unknown",
+      "project": "heavy-builder",
+      "kind": "edition",
+      "partLabel": "Upgrade parts on Devastator",
+      "id": "gla-07c",
+      "code": "GLA-07C",
+      "nameEn": "Giant Legion upgrade kit, Clear version (Construct Titan D set)",
+      "nameZh": "巨型军团 D套升级包 透明版",
+      "aliases": [
+        "GLA07C",
+        "Clear D set",
+        "Crystal D set",
+        "Construct Titan upgrade kit"
+      ],
+      "homage": "Clear / colour-transparent Devastator upgrade kit; G1 limb layout + height boost + truck",
+      "combinerRole": "Upgrade kit for the Clear (crystal) edition (GLA-01–06C): clear-colour parts, replacement hands for six members, truck mode (Arcane Collect copy).",
+      "priceRetail": "Arcane Collect USD 86.95, seen 26 Nov 2026.",
+      "notes": "Clear counterpart of GLA-07. Arcane Collect titles its page 'GLA-07T … Crystal Version' but its gallery files and product images are named GLA-07C, so GLA-07T looks like Arcane's label for this same clear kit (unconfirmed; no separate official GLA-07T found). The ShowZ page was behind a Cloudflare check on 26 Nov 2026, so no ShowZ price is recorded. TFSafari had no GLA-07C listing on 26 Nov 2026.",
+      "sources": [
+        "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+        "https://www.showzstore.com/mecha-invasion-gla-07c-upgrade-kits-for-giant-legion-heavy-builder-devastator-clear-version_p8218.html"
+      ],
+      "images": [
+        {
+          "file": "images/gla-07c/01.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+          "caption": "Clear upgrade kit parts on sprues (Arcane Collect studio image).",
+          "kind": "official",
+          "section": "other"
+        },
+        {
+          "file": "images/gla-07c/02.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+          "caption": "Clear Devastator with the upgrade kit.",
+          "kind": "official",
+          "section": "combined"
+        },
+        {
+          "file": "images/gla-07c/03.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+          "caption": "Clear Devastator with the upgrade kit, close-up.",
+          "kind": "official",
+          "section": "combined"
+        },
+        {
+          "file": "images/gla-07c/04.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+          "caption": "Clear Devastator with the upgrade kit and weapon.",
+          "kind": "official",
+          "section": "combined"
+        },
+        {
+          "file": "images/gla-07c/05.jpg",
+          "credit": "Arcane Collect (retailer-hosted official studio promo image)",
+          "sourceUrl": "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+          "caption": "Kit truck mode in clear colours.",
+          "kind": "official",
+          "section": "vehicle"
+        }
+      ],
+      "role": "Upgrade kit · clear, for GLA-01–06C",
+      "stores": [
+        {
+          "store": "ShowZ",
+          "url": "https://www.showzstore.com/mecha-invasion-gla-07c-upgrade-kits-for-giant-legion-heavy-builder-devastator-clear-version_p8218.html",
+          "price": null,
+          "currency": "USD",
+          "priceType": "none",
+          "availability": "Listed (price not read: page blocked by Cloudflare check)",
+          "checked": "2026-11-26",
+          "priceSource": "search"
+        },
+        {
+          "store": "Arcane Collect",
+          "url": "https://arcanecollect.com/product/mecha-invasion-transparent-giant-legion-devastator-gla-07t-d-set-upgrade-kit-crystal-version/",
+          "price": 86.95,
+          "currency": "USD",
+          "priceType": "full",
+          "availability": "Listed in stock · est. ship Dec 2026 (page titled GLA-07T)",
+          "checked": "2026-11-26",
+          "priceSource": "live"
+        }
+      ],
+      "storesNotListed": [
+        {
+          "store": "TFSafari",
+          "note": "No GLA-07C listing found (products.json and search) on 26 Nov 2026.",
+          "checked": "2026-11-26"
+        }
+      ]
     },
     {
       "id": "gla-dino",
@@ -2723,10 +2946,12 @@
           ]
         },
         {
-          "title": "Upgrade kit",
+          "title": "Upgrade kits (green GLA-07; yellow and clear versions)",
           "kind": "accessory",
           "ids": [
-            "gla-07"
+            "gla-07",
+            "gla-07y",
+            "gla-07c"
           ]
         },
         {
@@ -2846,5 +3071,5 @@
     "gla-black",
     "gla-07"
   ],
-  "pricesChecked": "2026-11-10"
+  "pricesChecked": "2026-11-26"
 }
